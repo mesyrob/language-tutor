@@ -1,0 +1,26 @@
+{
+  "id": "B1/07-imperative-negative",
+  "level": "B1",
+  "order": 7,
+  "title": "Negative commands",
+  "objectives": [
+    "Form negative commands using subjunctive forms",
+    "Distinguish from affirmative commands"
+  ],
+  "vocab": [
+    {"es": "no hables / no comas / no vivas", "en": "don't speak / eat / live (tú)", "ru": "не говори / не ешь / не живи"},
+    {"es": "no hable / no coma / no viva", "en": "don't speak / eat / live (usted)", "ru": "не говорите (вежливо)"},
+    {"es": "no habléis / no comáis / no viváis", "en": "don't speak / eat / live (vosotros)", "ru": "не говорите (мн. Испания)"},
+    {"es": "no hablen / no coman / no vivan", "en": "don't speak / eat / live (ustedes)", "ru": "не говорите (мн., формально)"}
+  ],
+  "grammar_notes": [
+    "ALL negative commands use the present subjunctive — no exceptions for tú.",
+    "Compare: 'come!' (eat!, tú affirmative — 3rd-person form) vs 'no comas!' (don't eat!, tú negative — subjunctive).",
+    "Russian uses 'не + императив' or 'не + perfective infinitive': 'не говори', 'не сделай этого'. Spanish split forms feel less symmetric — worth memorizing the pair."
+  ],
+  "example_phrases": [
+    "No hables tan rápido.",
+    "No coman aquí, por favor.",
+    "No te preocupes."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "A2/08-storytelling-past",
+  "level": "A2",
+  "order": 8,
+  "title": "Storytelling in the past",
+  "objectives": [
+    "Tell a short past story combining both past tenses",
+    "Set scenes with the imperfect and advance with the preterite"
+  ],
+  "vocab": [
+    {"es": "érase una vez", "en": "once upon a time", "ru": "жили-были"},
+    {"es": "un día", "en": "one day", "ru": "однажды"},
+    {"es": "entonces", "en": "then / so", "ru": "тогда / потом"},
+    {"es": "al final", "en": "in the end", "ru": "в конце"},
+    {"es": "de repente", "en": "suddenly", "ru": "вдруг"},
+    {"es": "mientras tanto", "en": "meanwhile", "ru": "тем временем"}
+  ],
+  "grammar_notes": [
+    "Scenes (weather, descriptions, time, mood, ongoing actions) → imperfect.",
+    "Specific events that advance the story → preterite.",
+    "Russian aspect intuition transfers well: 'было темно (imperfect), и она вошла (preterite)'."
+  ],
+  "example_phrases": [
+    "Era una noche fría. Yo estaba en casa cuando alguien llamó a la puerta.",
+    "Mientras comíamos, mi hermano contó una historia divertida.",
+    "Hacía sol y los niños jugaban en el parque. De repente, empezó a llover."
+  ]
+}

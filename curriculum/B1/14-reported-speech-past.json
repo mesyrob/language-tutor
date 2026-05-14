@@ -1,0 +1,30 @@
+{
+  "id": "B1/14-reported-speech-past",
+  "level": "B1",
+  "order": 14,
+  "title": "Reported speech (past) — tense backshift",
+  "objectives": [
+    "Report past speech with the right tense shifts",
+    "Memorize the main shift mappings"
+  ],
+  "vocab": [
+    {"es": "dijo que ...", "en": "he/she said that ...", "ru": "сказал(а), что..."},
+    {"es": "preguntó si ...", "en": "asked if ...", "ru": "спросил(а), ли..."},
+    {"es": "presente → imperfecto", "en": "tengo → tenía", "ru": "сдвиг времени"},
+    {"es": "indefinido → pluscuamperfecto", "en": "fui → había ido", "ru": "сдвиг времени"},
+    {"es": "futuro → condicional", "en": "iré → iría", "ru": "сдвиг времени"}
+  ],
+  "grammar_notes": [
+    "When the reporting verb is in the PAST (dijo, preguntó), shift tenses one step into the past:",
+    "Present 'tengo' → Imperfect 'tenía'.",
+    "Preterite 'fui' → Pluperfect 'había ido'.",
+    "Future 'iré' → Conditional 'iría'.",
+    "Imperative 'ven' → 'que viniera' (imperfect subjunctive).",
+    "Russian doesn't shift tenses in reported speech — directly maps 'Он сказал, что хочет' (still present 'хочет'). Spanish DOES shift. This is one of the trickiest gaps for Russian speakers."
+  ],
+  "example_phrases": [
+    "Ana dijo que tenía hambre. (\"Tengo hambre\")",
+    "Me dijo que había ido al médico. (\"Fui al médico\")",
+    "Prometió que vendría. (\"Vendré\")"
+  ]
+}

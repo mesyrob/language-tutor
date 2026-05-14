@@ -1,0 +1,30 @@
+{
+  "id": "A2/16-comparatives",
+  "level": "A2",
+  "order": 16,
+  "title": "Comparing things",
+  "objectives": [
+    "Make comparisons of inequality and equality",
+    "Use irregular comparatives (mejor, peor, mayor, menor)"
+  ],
+  "vocab": [
+    {"es": "más ... que", "en": "more ... than", "ru": "больше ... чем"},
+    {"es": "menos ... que", "en": "less ... than", "ru": "меньше ... чем"},
+    {"es": "tan ... como", "en": "as ... as", "ru": "такой же ... как"},
+    {"es": "tanto / tanta / tantos / tantas ... como", "en": "as much/many ... as", "ru": "столько ... сколько"},
+    {"es": "mejor", "en": "better", "ru": "лучше"},
+    {"es": "peor", "en": "worse", "ru": "хуже"},
+    {"es": "mayor", "en": "older / bigger (age, size)", "ru": "старше"},
+    {"es": "menor", "en": "younger / smaller", "ru": "младше"}
+  ],
+  "grammar_notes": [
+    "más alto que = taller than. menos rápido que = slower than. tan alto como = as tall as.",
+    "Russian 'выше чем', 'медленнее чем', 'такой же как' — direct parallel.",
+    "Irregulars don't combine with más: 'es mejor' (not 'más bueno'), 'es peor', 'es mayor'."
+  ],
+  "example_phrases": [
+    "Madrid es más grande que Valencia.",
+    "Este libro es tan interesante como el otro.",
+    "Mi hermana es mayor que yo."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "B1/19-conditional-perfect",
+  "level": "B1",
+  "order": 19,
+  "title": "Conditional perfect — 'would have done'",
+  "objectives": [
+    "Form 'habría + participle'",
+    "Use it for unrealized past possibilities"
+  ],
+  "vocab": [
+    {"es": "habría / habrías / habría / habríamos / habríais / habrían", "en": "conditional of haber", "ru": "был бы (вспом.)"},
+    {"es": "habría hecho", "en": "I would have done", "ru": "сделал бы"},
+    {"es": "habrías podido", "en": "you could have", "ru": "ты мог бы"}
+  ],
+  "grammar_notes": [
+    "Pattern: conditional of 'haber' + participle. 'Yo habría llamado, pero no tuve tiempo.'",
+    "Used in third-type conditionals: 'Si hubiera sabido, te habría avisado.' (If I had known, I would have warned you.)",
+    "Russian uses 'сделал бы' for both 'would do' and 'would have done' — Spanish makes the distinction explicit."
+  ],
+  "example_phrases": [
+    "Habría ido a la fiesta, pero estaba enferma.",
+    "Si me lo hubieras dicho, habría venido antes.",
+    "¿Qué habrías hecho en mi lugar?"
+  ]
+}

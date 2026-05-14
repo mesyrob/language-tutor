@@ -1,0 +1,32 @@
+{
+  "id": "A2/15-reflexive-deep",
+  "level": "A2",
+  "order": 15,
+  "title": "Reflexive verbs in depth",
+  "objectives": [
+    "Use reflexive verbs across all persons and tenses",
+    "Recognize reciprocal use (each other)"
+  ],
+  "vocab": [
+    {"es": "casarse", "en": "to get married", "ru": "жениться / выходить замуж"},
+    {"es": "divorciarse", "en": "to get divorced", "ru": "развестись"},
+    {"es": "irse", "en": "to leave / go away", "ru": "уйти"},
+    {"es": "quedarse", "en": "to stay", "ru": "оставаться"},
+    {"es": "ponerse", "en": "to put on (clothes); to become", "ru": "надеть; стать"},
+    {"es": "quitarse", "en": "to take off (clothes)", "ru": "снимать"},
+    {"es": "enamorarse de", "en": "to fall in love with", "ru": "влюбиться в"},
+    {"es": "preocuparse por", "en": "to worry about", "ru": "беспокоиться о"},
+    {"es": "se aman / se conocen", "en": "they love / know each other (reciprocal)", "ru": "любят / знают друг друга"}
+  ],
+  "grammar_notes": [
+    "Reflexive pronouns always match the subject: me, te, se, nos, os, se.",
+    "Reciprocal use: 'nos vemos' (we see each other), 'se aman' (they love each other) — plural subject required.",
+    "Some verbs CHANGE meaning when reflexive: ir (go somewhere) vs irse (leave). dormir (sleep) vs dormirse (fall asleep). poner (put) vs ponerse (put on / become).",
+    "Russian -ся/-сь covers most of these (жениться, развестись, остаться)."
+  ],
+  "example_phrases": [
+    "Mis padres se conocieron en la universidad.",
+    "Me pongo nerviosa cuando hablo en público.",
+    "¡Vámonos! (Let's go!)"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "A2/03-preterito-irregulars-1",
+  "level": "A2",
+  "order": 3,
+  "title": "Preterite irregulars I: ser/ir, estar, tener, hacer",
+  "objectives": [
+    "Conjugate the most common irregular preterites",
+    "Notice that ser and ir share the SAME preterite form"
+  ],
+  "vocab": [
+    {"es": "fui / fuiste / fue / fuimos / fuisteis / fueron", "en": "I was / went, etc.", "ru": "был / пошёл (одинаковая форма)"},
+    {"es": "estuve / estuviste / estuvo / estuvimos / estuvisteis / estuvieron", "en": "preterite of estar", "ru": "был (estar)"},
+    {"es": "tuve / tuviste / tuvo / tuvimos / tuvisteis / tuvieron", "en": "preterite of tener", "ru": "имел / у меня было"},
+    {"es": "hice / hiciste / hizo / hicimos / hicisteis / hicieron", "en": "preterite of hacer", "ru": "сделал", "hint": "él/ella form is 'hizo' — z, not c"}
+  ],
+  "grammar_notes": [
+    "'ser' and 'ir' share the same preterite (fui, fuiste, fue, ...) — context tells you which: 'Fui a Madrid' = went, 'Fui profesor' = was.",
+    "These irregular preterites use a special endings set: -e, -iste, -o, -imos, -isteis, -ieron (NO accents on yo and él/ella!).",
+    "'hacer': spelling change c→z before -o to keep the sound: hizo (not 'hico')."
+  ],
+  "example_phrases": [
+    "Ayer fui al cine. (Yesterday I went to the cinema.)",
+    "¿Qué hiciste el sábado?",
+    "Tuvimos un día difícil."
+  ]
+}

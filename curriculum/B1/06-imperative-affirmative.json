@@ -1,0 +1,28 @@
+{
+  "id": "B1/06-imperative-affirmative",
+  "level": "B1",
+  "order": 6,
+  "title": "Affirmative commands",
+  "objectives": [
+    "Give commands to tú, usted, vosotros, ustedes",
+    "Recognize where the imperative borrows from the subjunctive"
+  ],
+  "vocab": [
+    {"es": "habla / coma / vive", "en": "speak! / eat! / live! (tú forms)", "ru": "говори / ешь / живи"},
+    {"es": "hable / coma / viva", "en": "speak! / eat! / live! (usted forms)", "ru": "говорите / ешьте / живите (вежливо)"},
+    {"es": "hablad / comed / vivid", "en": "speak! / eat! / live! (vosotros)", "ru": "говорите / ешьте / живите (мн. в Испании)"},
+    {"es": "hablen / coman / vivan", "en": "speak! / eat! / live! (ustedes)", "ru": "говорите (мн., формально)"},
+    {"es": "ven / pon / sal / haz / di / ten / ve / sé", "en": "irregular tú imperatives", "ru": "иди / положи / выйди / сделай / скажи / держи / иди / будь"}
+  ],
+  "grammar_notes": [
+    "tú: same as 3rd person sing. present: habla, come, vive. Eight irregulars: ven (venir), pon (poner), sal (salir), haz (hacer), di (decir), ten (tener), ve (ir), sé (ser).",
+    "usted/ustedes: use the subjunctive forms (hable, coma, hablen, coman).",
+    "vosotros (Spain): replace -r of infinitive with -d. hablar→hablad, comer→comed, vivir→vivid.",
+    "nosotros 'let's ...' also uses subjunctive: hablemos, comamos, vamos."
+  ],
+  "example_phrases": [
+    "¡Habla más alto!",
+    "Coma usted aquí, por favor.",
+    "Ven conmigo."
+  ]
+}

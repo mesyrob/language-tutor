@@ -1,0 +1,25 @@
+{
+  "id": "B1/21-subjunctive-adjectival",
+  "level": "B1",
+  "order": 21,
+  "title": "Subjunctive in relative clauses",
+  "objectives": [
+    "Use subjunctive when the antecedent is unknown or nonexistent",
+    "Use indicative when the antecedent is specific and known"
+  ],
+  "vocab": [
+    {"es": "busco a alguien que ...", "en": "I'm looking for someone who ...", "ru": "ищу кого-то, кто..."},
+    {"es": "no hay nadie que ...", "en": "there's no one who ...", "ru": "нет никого, кто..."},
+    {"es": "necesito un libro que ...", "en": "I need a book that ...", "ru": "мне нужна книга, которая..."}
+  ],
+  "grammar_notes": [
+    "INDICATIVE when the antecedent EXISTS and is specific: 'Tengo un amigo que habla cinco idiomas.' (I have a specific friend.)",
+    "SUBJUNCTIVE when the antecedent is hypothetical, sought, or doesn't exist: 'Busco un amigo que hable cinco idiomas.' (I'm looking for one — may not exist.)",
+    "'No hay nadie / nada que ...' always takes subjunctive (the antecedent doesn't exist)."
+  ],
+  "example_phrases": [
+    "Necesito un piso que tenga balcón.",
+    "Conozco a una persona que vive en Tokio. (indicative — known)",
+    "No hay nadie que sepa la respuesta. (subjunctive — none exists)"
+  ]
+}

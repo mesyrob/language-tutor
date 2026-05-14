@@ -1,0 +1,28 @@
+{
+  "id": "A0/03-courtesies",
+  "level": "A0",
+  "order": 3,
+  "title": "Please, thank you, sorry",
+  "objectives": [
+    "Be polite when asking for something",
+    "Thank people and respond to thanks",
+    "Apologize and get someone's attention"
+  ],
+  "vocab": [
+    {"es": "por favor", "en": "please", "ru": "пожалуйста (при просьбе)"},
+    {"es": "gracias", "en": "thank you", "ru": "спасибо"},
+    {"es": "muchas gracias", "en": "thank you very much", "ru": "большое спасибо"},
+    {"es": "de nada", "en": "you're welcome", "ru": "пожалуйста (в ответ)", "hint": "literally: 'of nothing'"},
+    {"es": "perdón", "en": "sorry / excuse me (getting attention)", "ru": "извините"},
+    {"es": "disculpe", "en": "excuse me (formal, getting attention)", "ru": "извините (вежливо)"},
+    {"es": "lo siento", "en": "I'm sorry (apologetic)", "ru": "мне жаль", "hint": "use when YOU did something wrong"},
+    {"es": "no pasa nada", "en": "no worries / it's fine", "ru": "ничего страшного"}
+  ],
+  "grammar_notes": [
+    "perdón = getting attention or a light 'sorry'. lo siento = a heartfelt apology. Don't mix them up."
+  ],
+  "example_phrases": [
+    "— Un café, por favor. — Aquí tienes. — Gracias. — De nada.",
+    "— Lo siento, no entiendo. — No pasa nada."
+  ]
+}

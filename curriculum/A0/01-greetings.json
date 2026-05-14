@@ -1,0 +1,24 @@
+{
+  "id": "A0/01-greetings",
+  "level": "A0",
+  "order": 1,
+  "title": "Greetings",
+  "objectives": [
+    "Greet someone in Spanish at any time of day",
+    "Say goodbye casually and politely"
+  ],
+  "vocab": [
+    {"es": "hola", "en": "hello / hi", "ru": "привет"},
+    {"es": "buenos días", "en": "good morning", "ru": "доброе утро", "hint": "used until ~midday"},
+    {"es": "buenas tardes", "en": "good afternoon", "ru": "добрый день", "hint": "used from noon until evening"},
+    {"es": "buenas noches", "en": "good evening / good night", "ru": "добрый вечер / спокойной ночи"},
+    {"es": "adiós", "en": "goodbye", "ru": "до свидания", "hint": "ah-dee-OHS"},
+    {"es": "hasta luego", "en": "see you later", "ru": "до скорого", "hint": "AHS-tah lwe-go"},
+    {"es": "chao", "en": "bye (casual)", "ru": "пока"}
+  ],
+  "grammar_notes": [],
+  "example_phrases": [
+    "— ¡Hola! — ¡Hola, buenos días!",
+    "— Adiós. — ¡Hasta luego!"
+  ]
+}

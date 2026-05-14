@@ -1,0 +1,26 @@
+{
+  "id": "A2/14-combined-pronouns",
+  "level": "A2",
+  "order": 14,
+  "title": "Combined pronouns: indirect + direct",
+  "objectives": [
+    "Combine indirect and direct object pronouns in order",
+    "Use 'se' when both pronouns start with l"
+  ],
+  "vocab": [
+    {"es": "me lo / me la / me los / me las", "en": "it/them to me", "ru": "мне его/её/их"},
+    {"es": "te lo / te la / te los / te las", "en": "it/them to you", "ru": "тебе его/её/их"},
+    {"es": "se lo / se la / se los / se las", "en": "it/them to him/her/them (replaces le/les)", "ru": "ему/ей/им его/её/их"},
+    {"es": "nos lo / os lo", "en": "it to us / to you all", "ru": "нам / вам его"}
+  ],
+  "grammar_notes": [
+    "Order: INDIRECT + DIRECT + verb. 'Me lo dio' (he gave it to me).",
+    "'le lo' is forbidden — it becomes 'se lo'. 'Le di el libro a Juan' → 'Se lo di'.",
+    "Russian gives both pronouns in a sentence too: 'Я тебе его дал' — same idea, different mechanics."
+  ],
+  "example_phrases": [
+    "¿Me prestas el coche? — Sí, te lo presto.",
+    "¿Le diste el regalo a María? — Sí, se lo di.",
+    "Nos lo van a explicar mañana."
+  ]
+}

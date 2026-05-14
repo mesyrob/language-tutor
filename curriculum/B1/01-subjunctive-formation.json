@@ -1,0 +1,26 @@
+{
+  "id": "B1/01-subjunctive-formation",
+  "level": "B1",
+  "order": 1,
+  "title": "Present subjunctive — regular formation",
+  "objectives": [
+    "Form the present subjunctive of any regular verb",
+    "Understand that the subjunctive is a MOOD, not a tense"
+  ],
+  "vocab": [
+    {"es": "hable / hables / hable / hablemos / habléis / hablen", "en": "subjunctive of hablar", "ru": "сослагательное от hablar"},
+    {"es": "coma / comas / coma / comamos / comáis / coman", "en": "subjunctive of comer", "ru": "сослагательное от comer"},
+    {"es": "viva / vivas / viva / vivamos / viváis / vivan", "en": "subjunctive of vivir", "ru": "сослагательное от vivir"}
+  ],
+  "grammar_notes": [
+    "Take the YO form of the present indicative, drop the -o, and add 'opposite-vowel' endings.",
+    "-AR verbs use E-endings: -e, -es, -e, -emos, -éis, -en. -ER and -IR verbs use A-endings: -a, -as, -a, -amos, -áis, -an.",
+    "The subjunctive marks UNREAL, WANTED, DOUBTED, EMOTIONAL situations — not facts. It's a mood that doesn't exist in English as a separate form, but exists in Russian (сослагательное наклонение with 'бы' covers some of it).",
+    "Russian intuition: 'Хочу, чтобы он пришёл' uses subjunctive-like 'пришёл' after 'чтобы'. Spanish: 'Quiero que venga' — same instinct."
+  ],
+  "example_phrases": [
+    "Quiero que hables más alto. (I want you to speak louder.)",
+    "Es importante que comamos verduras.",
+    "No creo que viva aquí."
+  ]
+}

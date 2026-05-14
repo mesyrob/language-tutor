@@ -1,0 +1,36 @@
+{
+  "id": "A0/05-pronouns-ser",
+  "level": "A0",
+  "order": 5,
+  "title": "I, you, he, she + 'to be' (ser)",
+  "objectives": [
+    "Use Spanish subject pronouns",
+    "Conjugate 'ser' (to be) in the present tense",
+    "Make basic 'I am ...' sentences"
+  ],
+  "vocab": [
+    {"es": "yo", "en": "I", "ru": "я"},
+    {"es": "tú", "en": "you (familiar)", "ru": "ты"},
+    {"es": "él", "en": "he", "ru": "он"},
+    {"es": "ella", "en": "she", "ru": "она"},
+    {"es": "usted", "en": "you (formal)", "ru": "Вы (вежливо к одному)"},
+    {"es": "nosotros / nosotras", "en": "we (m. / f.)", "ru": "мы"},
+    {"es": "vosotros / vosotras", "en": "you all (Spain, familiar)", "ru": "вы (в Испании)"},
+    {"es": "ellos / ellas", "en": "they (m. / f.)", "ru": "они"},
+    {"es": "soy", "en": "I am", "ru": "я есть"},
+    {"es": "eres", "en": "you are (familiar)", "ru": "ты есть"},
+    {"es": "es", "en": "he/she is", "ru": "он/она есть"},
+    {"es": "somos", "en": "we are", "ru": "мы есть"},
+    {"es": "son", "en": "they / you-all (formal) are", "ru": "они / Вы (мн.) есть"}
+  ],
+  "grammar_notes": [
+    "Spanish usually DROPS the pronoun — the verb ending already tells you who. 'Soy de Rusia' is more natural than 'Yo soy de Rusia'.",
+    "Russian also often drops 'я' / 'ты' in casual speech — same intuition.",
+    "'ser' is one of two 'to be' verbs in Spanish. The other is 'estar' (lesson 7). For now: ser = who/what you ARE."
+  ],
+  "example_phrases": [
+    "Soy estudiante. (I'm a student.)",
+    "¿Eres ruso? — Sí, soy rusa. (Are you Russian? — Yes, I'm Russian [female].)",
+    "Ella es profesora. (She's a teacher.)"
+  ]
+}

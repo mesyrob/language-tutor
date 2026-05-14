@@ -1,0 +1,28 @@
+{
+  "id": "A0/02-introductions",
+  "level": "A0",
+  "order": 2,
+  "title": "Introducing yourself",
+  "objectives": [
+    "Ask someone their name and answer back",
+    "Say 'nice to meet you'",
+    "Know the difference between familiar 'tú' and formal 'usted'"
+  ],
+  "vocab": [
+    {"es": "¿cómo te llamas?", "en": "what's your name? (familiar)", "ru": "как тебя зовут?", "hint": "literally: 'how do you call yourself?'"},
+    {"es": "¿cómo se llama usted?", "en": "what's your name? (formal)", "ru": "как Вас зовут?"},
+    {"es": "me llamo ...", "en": "my name is ... (lit. 'I call myself')", "ru": "меня зовут ..."},
+    {"es": "soy ...", "en": "I am ... (also used for name)", "ru": "я ..."},
+    {"es": "mucho gusto", "en": "nice to meet you", "ru": "очень приятно"},
+    {"es": "encantado", "en": "delighted (male speaker)", "ru": "приятно познакомиться (м.р.)"},
+    {"es": "encantada", "en": "delighted (female speaker)", "ru": "приятно познакомиться (ж.р.)", "hint": "agrees with the speaker's gender — just like Russian"}
+  ],
+  "grammar_notes": [
+    "Spanish has two 'you': tú (familiar, friends/family) and usted (formal, strangers/elders). Russian has the same split with ты/Вы.",
+    "Adjectives like encantado/encantada agree with the SPEAKER's gender, not the listener's."
+  ],
+  "example_phrases": [
+    "— ¿Cómo te llamas? — Me llamo Lena. ¿Y tú?",
+    "— Soy Carlos. — Mucho gusto, Carlos. — Encantada."
+  ]
+}

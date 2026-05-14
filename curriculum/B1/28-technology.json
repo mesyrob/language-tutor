@@ -1,0 +1,32 @@
+{
+  "id": "B1/28-technology",
+  "level": "B1",
+  "order": 28,
+  "title": "Technology and the internet",
+  "objectives": [
+    "Talk about computers, phones, and the internet",
+    "Use everyday tech vocabulary"
+  ],
+  "vocab": [
+    {"es": "el ordenador / la computadora", "en": "computer (Spain / LatAm)", "ru": "компьютер"},
+    {"es": "el móvil / el celular", "en": "mobile / cell phone (Spain / LatAm)", "ru": "мобильный / сотовый"},
+    {"es": "la aplicación / la app", "en": "app", "ru": "приложение"},
+    {"es": "la contraseña", "en": "password", "ru": "пароль"},
+    {"es": "el correo electrónico", "en": "email", "ru": "электронная почта"},
+    {"es": "descargar", "en": "to download", "ru": "скачать"},
+    {"es": "subir", "en": "to upload", "ru": "загружать"},
+    {"es": "navegar (por internet)", "en": "to browse (the internet)", "ru": "сёрфить в интернете"},
+    {"es": "la conexión", "en": "connection", "ru": "соединение"},
+    {"es": "la red", "en": "network", "ru": "сеть"},
+    {"es": "guardar / borrar", "en": "to save / to delete", "ru": "сохранить / удалить"}
+  ],
+  "grammar_notes": [
+    "Spain says 'ordenador / móvil', Latin America says 'computadora / celular'. Both correct.",
+    "'red' covers both network and 'web' in 'redes sociales' (social media)."
+  ],
+  "example_phrases": [
+    "Guarda tu contraseña en un lugar seguro.",
+    "Voy a descargar la aplicación.",
+    "No hay conexión a internet."
+  ]
+}

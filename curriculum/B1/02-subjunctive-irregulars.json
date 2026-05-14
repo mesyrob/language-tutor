@@ -1,0 +1,28 @@
+{
+  "id": "B1/02-subjunctive-irregulars",
+  "level": "B1",
+  "order": 2,
+  "title": "Present subjunctive — irregular forms",
+  "objectives": [
+    "Learn the high-frequency irregular subjunctive stems",
+    "Know the six fully-irregular verbs"
+  ],
+  "vocab": [
+    {"es": "sea / seas / sea / seamos / seáis / sean", "en": "subjunctive of ser", "ru": "сосл. от ser"},
+    {"es": "esté / estés / esté / estemos / estéis / estén", "en": "subjunctive of estar", "ru": "сосл. от estar"},
+    {"es": "vaya / vayas / vaya / vayamos / vayáis / vayan", "en": "subjunctive of ir", "ru": "сосл. от ir"},
+    {"es": "haya / hayas / haya / hayamos / hayáis / hayan", "en": "subjunctive of haber", "ru": "сосл. от haber"},
+    {"es": "sepa / sepas / sepa", "en": "subjunctive of saber", "ru": "сосл. от saber"},
+    {"es": "dé / des / dé / demos / deis / den", "en": "subjunctive of dar", "ru": "сосл. от dar"},
+    {"es": "tenga / hagas / digas / pongas / vengas / salgas", "en": "from yo-form irregulars: tengo→tenga, etc.", "ru": "сосл. от tener/hacer/decir и др."}
+  ],
+  "grammar_notes": [
+    "Six fully irregular: ser→sea, estar→esté, ir→vaya, haber→haya, saber→sepa, dar→dé. Memorize as a block.",
+    "Everything else derived from the yo-form of the present: tengo→tenga, hago→haga, digo→diga, pongo→ponga, vengo→venga, salgo→salga, conozco→conozca."
+  ],
+  "example_phrases": [
+    "Espero que estés bien. (I hope you're well.)",
+    "No creo que tenga razón.",
+    "Es necesario que sepas la verdad."
+  ]
+}

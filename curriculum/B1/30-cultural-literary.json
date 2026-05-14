@@ -1,0 +1,32 @@
+{
+  "id": "B1/30-cultural-literary",
+  "level": "B1",
+  "order": 30,
+  "title": "Culture and literature — first taste",
+  "objectives": [
+    "Discuss books, films, and culture in simple terms",
+    "Recognize common Spanish proverbs"
+  ],
+  "vocab": [
+    {"es": "la literatura", "en": "literature", "ru": "литература"},
+    {"es": "la novela", "en": "novel", "ru": "роман"},
+    {"es": "el cuento", "en": "short story", "ru": "рассказ"},
+    {"es": "la poesía", "en": "poetry", "ru": "поэзия"},
+    {"es": "el autor / la autora", "en": "author", "ru": "автор"},
+    {"es": "el personaje", "en": "character (in fiction)", "ru": "персонаж"},
+    {"es": "la obra", "en": "work (artistic)", "ru": "произведение"},
+    {"es": "la película", "en": "film", "ru": "фильм"},
+    {"es": "el director / la directora", "en": "director (film)", "ru": "режиссёр"},
+    {"es": "más vale tarde que nunca", "en": "proverb: better late than never", "ru": "лучше поздно, чем никогда"},
+    {"es": "no hay mal que por bien no venga", "en": "proverb: every cloud has a silver lining", "ru": "нет худа без добра"}
+  ],
+  "grammar_notes": [
+    "Talking about books and films often uses the present tense even for fictional events: 'En la novela, el protagonista se enamora.' (In the novel, the protagonist falls in love.)",
+    "Spanish-speaking culture leans heavily on proverbs — knowing a few makes you sound much more native."
+  ],
+  "example_phrases": [
+    "Mi novela favorita es Cien años de soledad.",
+    "El protagonista es un personaje complicado.",
+    "Más vale tarde que nunca."
+  ]
+}

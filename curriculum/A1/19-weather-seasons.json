@@ -1,0 +1,33 @@
+{
+  "id": "A1/19-weather-seasons",
+  "level": "A1",
+  "order": 19,
+  "title": "Weather and seasons",
+  "objectives": [
+    "Describe the weather in Spanish",
+    "Name the four seasons"
+  ],
+  "vocab": [
+    {"es": "¿qué tiempo hace?", "en": "what's the weather like?", "ru": "какая погода?"},
+    {"es": "hace sol", "en": "it's sunny (lit. makes sun)", "ru": "солнечно"},
+    {"es": "hace calor", "en": "it's hot", "ru": "жарко"},
+    {"es": "hace frío", "en": "it's cold", "ru": "холодно"},
+    {"es": "hace viento", "en": "it's windy", "ru": "ветрено"},
+    {"es": "hace buen / mal tiempo", "en": "the weather is good / bad", "ru": "хорошая / плохая погода"},
+    {"es": "llueve / está lloviendo", "en": "it's raining", "ru": "идёт дождь"},
+    {"es": "nieva / está nevando", "en": "it's snowing", "ru": "идёт снег"},
+    {"es": "la primavera", "en": "spring", "ru": "весна"},
+    {"es": "el verano", "en": "summer", "ru": "лето"},
+    {"es": "el otoño", "en": "autumn / fall", "ru": "осень"},
+    {"es": "el invierno", "en": "winter", "ru": "зима"}
+  ],
+  "grammar_notes": [
+    "Weather typically uses 'hacer': hace frío, hace calor — literally 'it makes cold/hot'. Don't translate from English 'it is'.",
+    "But 'llover' and 'nevar' are full verbs: llueve (it rains), nieva (it snows)."
+  ],
+  "example_phrases": [
+    "En verano hace mucho calor en España.",
+    "Hoy llueve mucho.",
+    "Mi estación favorita es el otoño."
+  ]
+}

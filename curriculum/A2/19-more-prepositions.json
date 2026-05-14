@@ -1,0 +1,32 @@
+{
+  "id": "A2/19-more-prepositions",
+  "level": "A2",
+  "order": 19,
+  "title": "More prepositions of place",
+  "objectives": [
+    "Describe location precisely",
+    "Use compound prepositions (al lado de, cerca de, etc.)"
+  ],
+  "vocab": [
+    {"es": "entre", "en": "between / among", "ru": "между"},
+    {"es": "sobre", "en": "on / about", "ru": "на / о (предмете)"},
+    {"es": "debajo de", "en": "under / below", "ru": "под"},
+    {"es": "encima de", "en": "on top of / above", "ru": "над / на"},
+    {"es": "dentro de", "en": "inside (of)", "ru": "внутри"},
+    {"es": "fuera de", "en": "outside (of)", "ru": "снаружи"},
+    {"es": "al lado de", "en": "next to / beside", "ru": "рядом с"},
+    {"es": "cerca de", "en": "near", "ru": "близко к"},
+    {"es": "lejos de", "en": "far from", "ru": "далеко от"},
+    {"es": "delante de", "en": "in front of", "ru": "перед"},
+    {"es": "detrás de", "en": "behind", "ru": "за"}
+  ],
+  "grammar_notes": [
+    "Most compound prepositions take 'de' before a noun: 'cerca de mi casa', 'al lado del banco' (de + el = del).",
+    "'sobre' has two meanings: physical 'on top of' and topical 'about (a topic)'."
+  ],
+  "example_phrases": [
+    "El gato está debajo de la mesa.",
+    "Vivo cerca del centro.",
+    "Mi casa está entre el parque y la escuela."
+  ]
+}

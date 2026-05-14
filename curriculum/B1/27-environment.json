@@ -1,0 +1,31 @@
+{
+  "id": "B1/27-environment",
+  "level": "B1",
+  "order": 27,
+  "title": "Environment and sustainability",
+  "objectives": [
+    "Discuss environmental issues in basic Spanish",
+    "Use vocabulary around pollution, recycling, climate"
+  ],
+  "vocab": [
+    {"es": "el medio ambiente", "en": "the environment", "ru": "окружающая среда"},
+    {"es": "la contaminación", "en": "pollution", "ru": "загрязнение"},
+    {"es": "el cambio climático", "en": "climate change", "ru": "изменение климата"},
+    {"es": "reciclar", "en": "to recycle", "ru": "перерабатывать"},
+    {"es": "la basura", "en": "rubbish / trash", "ru": "мусор"},
+    {"es": "el plástico", "en": "plastic", "ru": "пластик"},
+    {"es": "la energía renovable", "en": "renewable energy", "ru": "возобновляемая энергия"},
+    {"es": "el calentamiento global", "en": "global warming", "ru": "глобальное потепление"},
+    {"es": "ahorrar", "en": "to save (energy / money)", "ru": "экономить"},
+    {"es": "la naturaleza", "en": "nature", "ru": "природа"},
+    {"es": "sostenible", "en": "sustainable", "ru": "устойчивый"}
+  ],
+  "grammar_notes": [
+    "'medio ambiente' is two words but functions as one noun — agreement matches the masculine 'medio'."
+  ],
+  "example_phrases": [
+    "Es importante reciclar el plástico.",
+    "El cambio climático es un problema serio.",
+    "Debemos ahorrar energía."
+  ]
+}

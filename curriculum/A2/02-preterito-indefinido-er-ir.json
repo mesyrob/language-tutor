@@ -1,0 +1,29 @@
+{
+  "id": "A2/02-preterito-indefinido-er-ir",
+  "level": "A2",
+  "order": 2,
+  "title": "Preterite: regular -er and -ir verbs",
+  "objectives": [
+    "Form preterite of regular -er and -ir verbs",
+    "Notice that -er and -ir share preterite endings"
+  ],
+  "vocab": [
+    {"es": "comí / comiste / comió / comimos / comisteis / comieron", "en": "preterite of comer", "ru": "ел (все формы)"},
+    {"es": "viví / viviste / vivió / vivimos / vivisteis / vivieron", "en": "preterite of vivir", "ru": "жил (все формы)"},
+    {"es": "escribí", "en": "I wrote", "ru": "написал"},
+    {"es": "bebió", "en": "he/she drank", "ru": "выпил(а)"},
+    {"es": "aprendieron", "en": "they learned", "ru": "они выучили"},
+    {"es": "abrimos", "en": "we opened / we open", "ru": "открыли / открываем"}
+  ],
+  "grammar_notes": [
+    "Endings (shared by -er and -ir): -í, -iste, -ió, -imos, -isteis, -ieron.",
+    "-er and -ir verbs use the SAME preterite endings — unlike present, where they differ.",
+    "Accents on yo (-í) and él/ella (-ió).",
+    "vivimos / escribimos look identical in present and preterite — context wins."
+  ],
+  "example_phrases": [
+    "Comí pizza anoche.",
+    "Mis padres vivieron en México diez años.",
+    "¿Quién escribió este libro?"
+  ]
+}

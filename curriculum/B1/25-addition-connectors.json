@@ -1,0 +1,29 @@
+{
+  "id": "B1/25-addition-connectors",
+  "level": "B1",
+  "order": 25,
+  "title": "Adding and emphasizing ideas",
+  "objectives": [
+    "Add information naturally with discourse markers",
+    "Emphasize key points"
+  ],
+  "vocab": [
+    {"es": "además", "en": "besides / what's more", "ru": "кроме того"},
+    {"es": "también", "en": "also / too", "ru": "также / тоже"},
+    {"es": "asimismo", "en": "likewise / also", "ru": "также (формально)"},
+    {"es": "es decir", "en": "that is / i.e.", "ru": "то есть"},
+    {"es": "por ejemplo", "en": "for example", "ru": "например"},
+    {"es": "en realidad", "en": "actually", "ru": "на самом деле"},
+    {"es": "de hecho", "en": "in fact", "ru": "фактически"},
+    {"es": "sobre todo", "en": "above all", "ru": "прежде всего"}
+  ],
+  "grammar_notes": [
+    "These connectors sit at the start of a clause and are usually set off by commas.",
+    "'también' goes BEFORE the verb in negative contexts replaced by 'tampoco' (neither): 'Yo no como carne. — Yo tampoco.'"
+  ],
+  "example_phrases": [
+    "Estudio español; además, aprendo francés.",
+    "Me gusta el café, sobre todo por la mañana.",
+    "En realidad, no lo sabía."
+  ]
+}

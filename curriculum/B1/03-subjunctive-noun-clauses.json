@@ -1,0 +1,29 @@
+{
+  "id": "B1/03-subjunctive-noun-clauses",
+  "level": "B1",
+  "order": 3,
+  "title": "Subjunctive in noun clauses",
+  "objectives": [
+    "Use the subjunctive after verbs of wanting, doubting, asking",
+    "Recognize when 'que' triggers a subjunctive switch"
+  ],
+  "vocab": [
+    {"es": "querer que ...", "en": "to want that ...", "ru": "хотеть, чтобы..."},
+    {"es": "esperar que ...", "en": "to hope that ...", "ru": "надеяться, что..."},
+    {"es": "pedir que ...", "en": "to ask (someone) to ...", "ru": "просить, чтобы..."},
+    {"es": "dudar que ...", "en": "to doubt that ...", "ru": "сомневаться, что..."},
+    {"es": "no creer que ...", "en": "to not believe that ...", "ru": "не верить, что..."},
+    {"es": "necesitar que ...", "en": "to need that ...", "ru": "нуждаться, чтобы..."}
+  ],
+  "grammar_notes": [
+    "Pattern: [subject 1] + verb of wish/doubt/influence + 'que' + [subject 2] + SUBJUNCTIVE. Two different subjects required.",
+    "Same subject? Use the infinitive instead: 'Quiero comer' (I want to eat, same person), but 'Quiero que comas' (I want YOU to eat).",
+    "Russian 'чтобы' takes the past form ('чтобы он пришёл') — Spanish uses subjunctive. Same instinct, different morphology.",
+    "Affirmative 'creer que' takes INDICATIVE ('creo que viene' — I believe he's coming). Negative 'no creer que' takes SUBJUNCTIVE ('no creo que venga')."
+  ],
+  "example_phrases": [
+    "Quiero que vengas a la fiesta.",
+    "Dudo que tenga tiempo hoy.",
+    "Esperamos que todo salga bien."
+  ]
+}

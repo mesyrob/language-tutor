@@ -1,0 +1,31 @@
+{
+  "id": "A1/02-articles-noun-gender",
+  "level": "A1",
+  "order": 2,
+  "title": "Articles and noun gender",
+  "objectives": [
+    "Choose the correct article (el/la/un/una)",
+    "Recognize common gender patterns and key exceptions"
+  ],
+  "vocab": [
+    {"es": "el / la", "en": "the (m. / f.)", "ru": "определённый артикль"},
+    {"es": "un / una", "en": "a / an (m. / f.)", "ru": "неопределённый артикль"},
+    {"es": "el libro", "en": "the book", "ru": "книга"},
+    {"es": "la mesa", "en": "the table", "ru": "стол"},
+    {"es": "la mano", "en": "the hand", "ru": "рука", "hint": "ends in -o but is feminine"},
+    {"es": "el día", "en": "the day", "ru": "день", "hint": "ends in -a but is masculine"},
+    {"es": "el problema", "en": "the problem", "ru": "проблема", "hint": "Greek-origin -ma words are masculine"},
+    {"es": "el agua", "en": "the water", "ru": "вода", "hint": "feminine but uses 'el' (stressed 'a')"}
+  ],
+  "grammar_notes": [
+    "Default pattern: -o = masculine, -a = feminine. Plenty of exceptions though.",
+    "Spanish has 2 genders, Russian has 3 — don't blindly import Russian gender intuitions.",
+    "Greek-origin -ma nouns (problema, sistema, tema, drama) are masculine.",
+    "Feminine nouns starting with stressed 'a' / 'ha' take 'el' (el agua, el alma) — but adjectives still agree as feminine: el agua fría."
+  ],
+  "example_phrases": [
+    "El libro es interesante. (The book is interesting.)",
+    "Quiero una manzana. (I want an apple.)",
+    "El agua está fría. (The water is cold.)"
+  ]
+}

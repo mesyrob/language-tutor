@@ -1,0 +1,31 @@
+{
+  "id": "A1/06-present-er-ir-verbs",
+  "level": "A1",
+  "order": 6,
+  "title": "Present tense: regular -er and -ir verbs",
+  "objectives": [
+    "Conjugate regular -er and -ir verbs in the present",
+    "Notice where -er and -ir endings differ (only nosotros / vosotros)"
+  ],
+  "vocab": [
+    {"es": "comer", "en": "to eat", "ru": "есть / кушать"},
+    {"es": "beber", "en": "to drink", "ru": "пить"},
+    {"es": "leer", "en": "to read", "ru": "читать"},
+    {"es": "aprender", "en": "to learn", "ru": "учиться (выучивать)"},
+    {"es": "vivir", "en": "to live", "ru": "жить"},
+    {"es": "escribir", "en": "to write", "ru": "писать"},
+    {"es": "abrir", "en": "to open", "ru": "открывать"},
+    {"es": "recibir", "en": "to receive", "ru": "получать"}
+  ],
+  "grammar_notes": [
+    "-er pattern (comer): como, comes, come, comemos, coméis, comen.",
+    "-ir pattern (vivir): vivo, vives, vive, vivimos, vivís, viven.",
+    "-er and -ir share endings EXCEPT for nosotros (-emos vs -imos) and vosotros (-éis vs -ís).",
+    "yo and él/ella forms are identical to -ar (-o and -e) — easy memory hook."
+  ],
+  "example_phrases": [
+    "Como pasta los lunes. (I eat pasta on Mondays.)",
+    "Vivimos en Madrid. (We live in Madrid.)",
+    "¿Lees mucho? (Do you read a lot?)"
+  ]
+}

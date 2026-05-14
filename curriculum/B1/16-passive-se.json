@@ -1,0 +1,28 @@
+{
+  "id": "B1/16-passive-se",
+  "level": "B1",
+  "order": 16,
+  "title": "Passive with 'se' — the common alternative",
+  "objectives": [
+    "Form 'se' passives for general statements",
+    "Distinguish from reflexive 'se'"
+  ],
+  "vocab": [
+    {"es": "se vende / se venden", "en": "is/are sold", "ru": "продаётся / продаются"},
+    {"es": "se habla / se hablan", "en": "is/are spoken", "ru": "говорят (на языке)"},
+    {"es": "se busca", "en": "wanted (e.g. job ads)", "ru": "разыскивается"},
+    {"es": "se prohíbe", "en": "is prohibited", "ru": "запрещено"},
+    {"es": "se necesita", "en": "is needed", "ru": "требуется"}
+  ],
+  "grammar_notes": [
+    "Pattern: se + 3rd-person verb. Verb agrees with the subject (the thing acted upon).",
+    "'Se vende coche' (singular) / 'Se venden libros' (plural). The thing sold IS the subject.",
+    "Used for general / impersonal statements: 'Aquí se habla español.' (Spanish is spoken here.) Russian: 'Здесь говорят по-испански' — same flavor.",
+    "Don't confuse with reflexive 'se': 'Se lava la cara' (he washes his face — reflexive) vs 'Se lavan los platos en la cocina' (the dishes are washed — passive)."
+  ],
+  "example_phrases": [
+    "Se vende esta casa.",
+    "En México se habla español.",
+    "Se necesitan empleados con experiencia."
+  ]
+}

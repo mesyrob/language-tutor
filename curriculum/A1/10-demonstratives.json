@@ -1,0 +1,26 @@
+{
+  "id": "A1/10-demonstratives",
+  "level": "A1",
+  "order": 10,
+  "title": "This, that, that-over-there",
+  "objectives": [
+    "Point at things at different distances using demonstratives",
+    "Match demonstratives in gender and number"
+  ],
+  "vocab": [
+    {"es": "este / esta / estos / estas", "en": "this / these (near me)", "ru": "этот / эта / эти"},
+    {"es": "ese / esa / esos / esas", "en": "that / those (near you)", "ru": "тот / та / те (рядом с тобой)"},
+    {"es": "aquel / aquella / aquellos / aquellas", "en": "that / those (far from both)", "ru": "тот / та / те (вон там)"},
+    {"es": "esto / eso / aquello", "en": "this / that (neuter, unidentified thing)", "ru": "это / то (без рода)"}
+  ],
+  "grammar_notes": [
+    "Spanish has THREE distance levels (here / there-by-you / over-there), unlike English's two.",
+    "Russian uses 'этот / тот' (two levels) — Spanish 'aquel' adds a third.",
+    "Neuter forms (esto, eso, aquello) refer to ideas or unidentified objects: '¿Qué es esto?'"
+  ],
+  "example_phrases": [
+    "Este libro es mío. (This book is mine.)",
+    "Esa mesa es grande. (That table is big.)",
+    "¿Qué es aquello? (What's that over there?)"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "B1/22-conditional-deep",
+  "level": "B1",
+  "order": 22,
+  "title": "Conditionals — all four types in one view",
+  "objectives": [
+    "Distinguish the four main 'si' patterns",
+    "Build mixed conditionals when needed"
+  ],
+  "vocab": [
+    {"es": "Type 1 — real:", "en": "si + presente + presente/futuro/imperativo", "ru": "если ... , то..."},
+    {"es": "Type 2 — hypothetical present:", "en": "si + imp. subj. + condicional", "ru": "если бы ..., то ... бы"},
+    {"es": "Type 3 — hypothetical past:", "en": "si + pluscuamperfecto subj. + condicional perfecto", "ru": "если бы ... , то ... бы было"},
+    {"es": "hubiera / hubieras / hubiera ...", "en": "had (subj.) — for type 3", "ru": "если бы (давно)"},
+    {"es": "Mixed — past hypothesis, present result:", "en": "si + pluscuamp. subj. + condicional", "ru": "смешанный тип"}
+  ],
+  "grammar_notes": [
+    "Type 1 (real): 'Si llueve, no salgo.' (If it rains, I don't go out.)",
+    "Type 2 (present hypothesis): 'Si tuviera dinero, viajaría.' (If I had money [now], I'd travel.)",
+    "Type 3 (past hypothesis): 'Si hubiera estudiado, habría aprobado.' (If I had studied, I would have passed.)",
+    "Mixed: 'Si hubiera estudiado más, ahora hablaría mejor.' (If I had studied more, I would speak better now.)",
+    "Russian uses 'если бы' across all hypothetical types — Spanish makes finer distinctions with tense."
+  ],
+  "example_phrases": [
+    "Si tengo dinero, te invito a comer. (Type 1)",
+    "Si tuviera más tiempo, leería más. (Type 2)",
+    "Si hubiera sabido, no habría venido. (Type 3)"
+  ]
+}

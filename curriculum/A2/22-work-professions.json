@@ -1,0 +1,33 @@
+{
+  "id": "A2/22-work-professions",
+  "level": "A2",
+  "order": 22,
+  "title": "Work and professions",
+  "objectives": [
+    "Name common professions",
+    "Talk about your work and workplace"
+  ],
+  "vocab": [
+    {"es": "el trabajo", "en": "work / job", "ru": "работа"},
+    {"es": "la oficina", "en": "office", "ru": "офис"},
+    {"es": "el jefe / la jefa", "en": "boss", "ru": "начальник / начальница"},
+    {"es": "el sueldo / el salario", "en": "salary", "ru": "зарплата"},
+    {"es": "el médico / la médica", "en": "doctor", "ru": "врач"},
+    {"es": "el profesor / la profesora", "en": "teacher", "ru": "учитель / учительница"},
+    {"es": "el ingeniero / la ingeniera", "en": "engineer", "ru": "инженер"},
+    {"es": "el abogado / la abogada", "en": "lawyer", "ru": "адвокат / адвокатша"},
+    {"es": "el cocinero / la cocinera", "en": "cook / chef", "ru": "повар / повариха"},
+    {"es": "el camarero / la camarera", "en": "waiter / waitress", "ru": "официант / официантка"},
+    {"es": "estar en paro / desempleado", "en": "to be unemployed", "ru": "быть безработным"},
+    {"es": "buscar trabajo", "en": "to look for work", "ru": "искать работу"}
+  ],
+  "grammar_notes": [
+    "When stating profession after 'ser', usually DROP the article: 'Soy médica' (not 'soy una médica'). Add the article only when describing further: 'Soy una médica famosa.'",
+    "Most professions have masc./fem. forms; some that ended -e or consonant historically don't change (estudiante)."
+  ],
+  "example_phrases": [
+    "Soy ingeniero. (I'm an engineer.)",
+    "Mi madre trabaja como profesora.",
+    "Estoy buscando trabajo nuevo."
+  ]
+}

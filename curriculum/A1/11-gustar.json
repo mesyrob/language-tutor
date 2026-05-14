@@ -1,0 +1,32 @@
+{
+  "id": "A1/11-gustar",
+  "level": "A1",
+  "order": 11,
+  "title": "Gustar — saying what you like",
+  "objectives": [
+    "Use 'me gusta / me gustan' correctly",
+    "Understand the backwards subject of 'gustar'"
+  ],
+  "vocab": [
+    {"es": "me gusta", "en": "I like (one thing)", "ru": "мне нравится"},
+    {"es": "me gustan", "en": "I like (multiple things)", "ru": "мне нравятся"},
+    {"es": "te gusta / te gustan", "en": "you like (familiar)", "ru": "тебе нравится / нравятся"},
+    {"es": "le gusta / le gustan", "en": "he-she-you-formal likes", "ru": "ему-ей-Вам нравится / нравятся"},
+    {"es": "nos gusta / nos gustan", "en": "we like", "ru": "нам нравится / нравятся"},
+    {"es": "les gusta / les gustan", "en": "they-you-all like", "ru": "им нравится / нравятся"},
+    {"es": "encantar", "en": "to love (works like gustar)", "ru": "очень нравиться"},
+    {"es": "interesar", "en": "to interest", "ru": "интересовать"},
+    {"es": "doler", "en": "to hurt", "ru": "болеть"}
+  ],
+  "grammar_notes": [
+    "'gustar' literally means 'to please'. Spanish says 'the book pleases me', not 'I like the book': Me gusta el libro.",
+    "The thing(s) liked is the SUBJECT — so verb agrees with it: Me gustan los libros (the books please me).",
+    "Russian works the same way: 'мне нравится книга' / 'мне нравятся книги' — exactly the same logic.",
+    "Same pattern for encantar (love), interesar (interest), doler (hurt). Me duele la cabeza = my head hurts."
+  ],
+  "example_phrases": [
+    "Me gusta el chocolate. (I like chocolate.)",
+    "¿Te gustan los gatos? (Do you like cats?)",
+    "Me encanta bailar. (I love dancing.)"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "A2/23-sequence-connectors",
+  "level": "A2",
+  "order": 23,
+  "title": "Sequence and time connectors",
+  "objectives": [
+    "Order events in a narrative or description",
+    "Use 'antes de' / 'después de' with infinitives"
+  ],
+  "vocab": [
+    {"es": "primero", "en": "first", "ru": "сначала / во-первых"},
+    {"es": "luego", "en": "then / next", "ru": "затем"},
+    {"es": "después", "en": "after / afterwards", "ru": "потом / после"},
+    {"es": "entonces", "en": "so / then", "ru": "тогда / значит"},
+    {"es": "al final / finalmente", "en": "in the end / finally", "ru": "в конце / наконец"},
+    {"es": "antes de + infinitivo", "en": "before doing ...", "ru": "перед тем как / прежде чем"},
+    {"es": "después de + infinitivo", "en": "after doing ...", "ru": "после того как"},
+    {"es": "mientras", "en": "while", "ru": "пока"},
+    {"es": "al mismo tiempo", "en": "at the same time", "ru": "одновременно"}
+  ],
+  "grammar_notes": [
+    "'antes de' and 'después de' take the INFINITIVE (not a conjugated verb): 'antes de comer', 'después de trabajar'.",
+    "Russian uses 'перед + verbal noun' or 'прежде чем + verb' — similar structural idea, different mechanics."
+  ],
+  "example_phrases": [
+    "Primero me ducho, luego desayuno, y después voy al trabajo.",
+    "Antes de salir, cierro las ventanas.",
+    "Mientras estudio, escucho música."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A1/16-food-meals",
+  "level": "A1",
+  "order": 16,
+  "title": "Food and meals",
+  "objectives": [
+    "Name common foods and drinks",
+    "Talk about the three daily meals"
+  ],
+  "vocab": [
+    {"es": "el desayuno", "en": "breakfast", "ru": "завтрак"},
+    {"es": "la comida / el almuerzo", "en": "lunch", "ru": "обед", "hint": "comida = lunch in Spain, almuerzo more common in LatAm"},
+    {"es": "la cena", "en": "dinner", "ru": "ужин"},
+    {"es": "la carne", "en": "meat", "ru": "мясо"},
+    {"es": "el pescado", "en": "fish", "ru": "рыба"},
+    {"es": "el pollo", "en": "chicken", "ru": "курица"},
+    {"es": "las verduras", "en": "vegetables", "ru": "овощи"},
+    {"es": "la fruta", "en": "fruit", "ru": "фрукты"},
+    {"es": "el queso", "en": "cheese", "ru": "сыр"},
+    {"es": "el huevo", "en": "egg", "ru": "яйцо"},
+    {"es": "la leche", "en": "milk", "ru": "молоко"},
+    {"es": "el zumo / jugo", "en": "juice (Spain / LatAm)", "ru": "сок"}
+  ],
+  "grammar_notes": [
+    "Many uncountable foods take definite articles where English uses none: 'Me gusta el café' = 'I like coffee'.",
+    "Spain uses 'zumo' and 'comida' (for lunch). Latin America uses 'jugo' and 'almuerzo'. Both are correct."
+  ],
+  "example_phrases": [
+    "Para desayunar, tomo café y pan. (For breakfast, I have coffee and bread.)",
+    "No como carne. (I don't eat meat.)",
+    "¿Te gusta el pescado?"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "B1/09-conditional-real",
+  "level": "B1",
+  "order": 9,
+  "title": "Real conditionals revisited",
+  "objectives": [
+    "Use 'si + presente + futuro' confidently",
+    "Distinguish real from hypothetical 'si' clauses"
+  ],
+  "vocab": [
+    {"es": "si + presente + futuro", "en": "if X happens, Y will happen", "ru": "если ... , то..."},
+    {"es": "si + presente + imperativo", "en": "if X, then do Y", "ru": "если ..., сделай..."},
+    {"es": "siempre que", "en": "as long as / whenever", "ru": "при условии что"},
+    {"es": "a no ser que", "en": "unless (+ subjunctive)", "ru": "если только не"},
+    {"es": "con tal de que", "en": "as long as (+ subjunctive)", "ru": "лишь бы"}
+  ],
+  "grammar_notes": [
+    "Real (likely) conditional: si + presente + presente OR futuro OR imperativo. 'Si tienes tiempo, vendré' / 'ven'.",
+    "Never use 'si + presente subjuntivo' for real conditionals. 'Si tenga tiempo' is WRONG.",
+    "Other condition connectors take subjunctive: 'siempre que practiques', 'a no ser que llueva'."
+  ],
+  "example_phrases": [
+    "Si estudias, aprobarás el examen.",
+    "Si hace sol, iremos a la playa.",
+    "Voy contigo, siempre que vayamos en tren."
+  ]
+}

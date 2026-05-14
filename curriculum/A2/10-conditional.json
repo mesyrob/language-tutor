@@ -1,0 +1,30 @@
+{
+  "id": "A2/10-conditional",
+  "level": "A2",
+  "order": 10,
+  "title": "Conditional — politeness and hypotheticals",
+  "objectives": [
+    "Form the conditional of regular verbs",
+    "Use it for polite requests and hypothetical statements"
+  ],
+  "vocab": [
+    {"es": "hablaría / hablarías / hablaría / hablaríamos / hablaríais / hablarían", "en": "would speak", "ru": "говорил бы"},
+    {"es": "comería", "en": "I would eat", "ru": "ел бы"},
+    {"es": "viviría", "en": "I would live", "ru": "жил бы"},
+    {"es": "me gustaría", "en": "I would like", "ru": "мне бы хотелось"},
+    {"es": "¿podrías ...?", "en": "could you ...?", "ru": "мог бы ты ...?"},
+    {"es": "tendría", "en": "I would have", "ru": "имел бы"},
+    {"es": "haría", "en": "I would do/make", "ru": "сделал бы"}
+  ],
+  "grammar_notes": [
+    "Endings: -ía, -ías, -ía, -íamos, -íais, -ían. Same endings for all three verb groups.",
+    "Add endings to the WHOLE infinitive (hablar+ía), NOT a shortened stem. Exceptions match the future irregulars (tendría, haría, podría, etc.).",
+    "Two main uses: politeness ('me gustaría', '¿podrías?') and hypothetical statements ('yo en tu lugar, lo haría').",
+    "Russian uses 'бы' for the same shades: я бы хотел = me gustaría."
+  ],
+  "example_phrases": [
+    "Me gustaría un café, por favor.",
+    "¿Podrías ayudarme?",
+    "Yo viviría en España si pudiera."
+  ]
+}

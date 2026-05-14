@@ -1,0 +1,26 @@
+{
+  "id": "B1/13-reported-speech-present",
+  "level": "B1",
+  "order": 13,
+  "title": "Reported speech (present)",
+  "objectives": [
+    "Report what someone is saying now",
+    "Use 'dice que' and 'pregunta si' without tense shifts"
+  ],
+  "vocab": [
+    {"es": "dice que ...", "en": "he/she says that ...", "ru": "он/она говорит, что..."},
+    {"es": "pregunta si ...", "en": "he/she asks if/whether ...", "ru": "спрашивает, ли..."},
+    {"es": "explica que ...", "en": "explains that ...", "ru": "объясняет, что..."},
+    {"es": "cuenta que ...", "en": "tells / recounts that ...", "ru": "рассказывает, что..."}
+  ],
+  "grammar_notes": [
+    "When the reporting verb is in the present, no tense shift in the reported part: 'Ana dice: \"Tengo hambre.\"' → 'Ana dice que tiene hambre.'",
+    "Pronouns change: '\"Yo soy ruso\"' → 'él dice que es ruso.'",
+    "Yes/no questions become indirect with 'si': '\"¿Vienes?\"' → 'Me pregunta si vengo.'"
+  ],
+  "example_phrases": [
+    "Mi madre dice que llega a las siete.",
+    "Juan pregunta si quieres venir.",
+    "Cuenta que vive en Barcelona."
+  ]
+}

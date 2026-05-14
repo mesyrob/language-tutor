@@ -1,0 +1,35 @@
+# Copy this manifest into your homelab-k8s repo
+# (e.g. apps/workloads/language-tutor.yaml), then edit repoURL
+# to match this repo's URL. ArgoCD will sync the deploy/ directory.
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: language-tutor
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/REPLACE_ME/language-tutor.git
+    targetRevision: HEAD
+    path: deploy
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: language-tutor
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      # The TELEGRAM_BOT_TOKEN / ANTHROPIC_API_KEY secret is created manually
+      # out-of-band (see deploy/README.md). Don't let ArgoCD prune it.
+      - RespectIgnoreDifferences=true
+  ignoreDifferences:
+    - group: ""
+      kind: Secret
+      name: language-tutor-secrets
+      jsonPointers:
+        - /data

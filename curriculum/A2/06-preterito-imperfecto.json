@@ -1,0 +1,29 @@
+{
+  "id": "A2/06-preterito-imperfecto",
+  "level": "A2",
+  "order": 6,
+  "title": "Imperfect tense — habits and backgrounds",
+  "objectives": [
+    "Form the imperfect of regular verbs",
+    "Use it for past habits and ongoing states"
+  ],
+  "vocab": [
+    {"es": "hablaba / hablabas / hablaba / hablábamos / hablabais / hablaban", "en": "imperfect of hablar", "ru": "говорил (раньше / обычно)"},
+    {"es": "comía / comías / comía / comíamos / comíais / comían", "en": "imperfect of comer", "ru": "ел (раньше / обычно)"},
+    {"es": "vivía / vivías / vivía / vivíamos / vivíais / vivían", "en": "imperfect of vivir", "ru": "жил (раньше)"},
+    {"es": "era / eras / era / éramos / erais / eran", "en": "imperfect of ser (was, used to be)", "ru": "был (был раньше)"},
+    {"es": "iba / ibas / iba / íbamos / ibais / iban", "en": "imperfect of ir (used to go)", "ru": "ходил / ездил"},
+    {"es": "veía / veías / veía", "en": "imperfect of ver", "ru": "видел"}
+  ],
+  "grammar_notes": [
+    "-ar imperfect endings: -aba, -abas, -aba, -ábamos, -abais, -aban.",
+    "-er/-ir imperfect endings: -ía, -ías, -ía, -íamos, -íais, -ían.",
+    "Only THREE irregulars in imperfect: ser (era), ir (iba), ver (veía).",
+    "Use the imperfect for: past habits ('I used to live'), ongoing backgrounds ('it was raining'), descriptions, ages and times in the past. Like Russian imperfective: 'жил', 'ходил каждый день'."
+  ],
+  "example_phrases": [
+    "Cuando era niña, vivía en Moscú. (When I was a child, I lived in Moscow.)",
+    "Siempre íbamos al parque los domingos.",
+    "Eran las tres de la tarde."
+  ]
+}

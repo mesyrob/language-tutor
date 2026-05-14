@@ -1,0 +1,26 @@
+{
+  "id": "A2/18-por-vs-para",
+  "level": "A2",
+  "order": 18,
+  "title": "Por vs Para — the classic distinction",
+  "objectives": [
+    "Choose between por and para correctly in common contexts",
+    "Memorize the core uses of each"
+  ],
+  "vocab": [
+    {"es": "por", "en": "because of, through, in exchange for, by", "ru": "из-за / через / за (обмен) / посредством"},
+    {"es": "para", "en": "for (purpose, recipient, deadline, destination)", "ru": "для / чтобы / к (сроку) / в (направлении)"}
+  ],
+  "grammar_notes": [
+    "PARA = forward-looking: purpose, recipient, destination, deadline. 'Este regalo es para ti.' 'Estudio para aprobar.' 'Salgo para Madrid.'",
+    "POR = backward-looking or in-the-middle: cause, exchange, movement through, agent. 'Lo hago por amor.' 'Diez euros por el libro.' 'Caminé por el parque.' 'Hecho por un artista.'",
+    "Quick test: if you can replace with 'because of' or 'through' → 'por'. If you can replace with 'in order to' or 'for the purpose of' → 'para'.",
+    "Russian doesn't make this distinction with prepositions — relies on context. Hardest item in A2 for Russian speakers."
+  ],
+  "example_phrases": [
+    "Estudio español para hablar con mi novio. (purpose)",
+    "Gracias por tu ayuda. (cause)",
+    "Salimos para Madrid mañana. (destination)",
+    "Compré el libro por diez euros. (exchange)"
+  ]
+}

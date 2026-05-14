@@ -1,0 +1,32 @@
+{
+  "id": "B1/29-politics-society",
+  "level": "B1",
+  "order": 29,
+  "title": "Politics and society — basic vocabulary",
+  "objectives": [
+    "Discuss government, rights, and society in basic terms",
+    "Read simple political headlines"
+  ],
+  "vocab": [
+    {"es": "el gobierno", "en": "government", "ru": "правительство"},
+    {"es": "las elecciones", "en": "elections", "ru": "выборы"},
+    {"es": "votar", "en": "to vote", "ru": "голосовать"},
+    {"es": "la política", "en": "politics / policy", "ru": "политика"},
+    {"es": "el partido", "en": "(political) party", "ru": "партия"},
+    {"es": "la ley", "en": "law", "ru": "закон"},
+    {"es": "los derechos", "en": "rights", "ru": "права"},
+    {"es": "la libertad", "en": "freedom", "ru": "свобода"},
+    {"es": "la sociedad", "en": "society", "ru": "общество"},
+    {"es": "el ciudadano / la ciudadana", "en": "citizen", "ru": "гражданин / гражданка"},
+    {"es": "el / la presidente", "en": "president", "ru": "президент"},
+    {"es": "la democracia", "en": "democracy", "ru": "демократия"}
+  ],
+  "grammar_notes": [
+    "'política' has two meanings: 'politics' (the field) and 'policy' (a specific course). Context clarifies."
+  ],
+  "example_phrases": [
+    "Las elecciones son el próximo mes.",
+    "Todos los ciudadanos tienen derechos.",
+    "El gobierno aprobó una nueva ley."
+  ]
+}

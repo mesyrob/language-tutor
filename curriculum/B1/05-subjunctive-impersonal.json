@@ -1,0 +1,28 @@
+{
+  "id": "B1/05-subjunctive-impersonal",
+  "level": "B1",
+  "order": 5,
+  "title": "Subjunctive with impersonal expressions",
+  "objectives": [
+    "Use the subjunctive after 'es + adjective + que'",
+    "Distinguish factual vs evaluative impersonals"
+  ],
+  "vocab": [
+    {"es": "es importante que ...", "en": "it's important that ...", "ru": "важно, чтобы..."},
+    {"es": "es necesario que ...", "en": "it's necessary that ...", "ru": "необходимо, чтобы..."},
+    {"es": "es posible / probable que ...", "en": "it's possible / likely that ...", "ru": "возможно / вероятно, что..."},
+    {"es": "es bueno / malo que ...", "en": "it's good / bad that ...", "ru": "хорошо / плохо, что..."},
+    {"es": "es mejor que ...", "en": "it's better that ...", "ru": "лучше, чтобы..."},
+    {"es": "es verdad / cierto que ...", "en": "it's true that ... (takes INDICATIVE)", "ru": "правда, что... (с индикативом)"}
+  ],
+  "grammar_notes": [
+    "Evaluative impersonals (importante, necesario, posible, mejor, una pena) → subjunctive.",
+    "Factual impersonals (es verdad, es cierto, está claro) → INDICATIVE. They state facts.",
+    "Without 'que', use the infinitive: 'es importante estudiar' (general) vs 'es importante que estudies' (specifically you)."
+  ],
+  "example_phrases": [
+    "Es importante que practiques cada día.",
+    "Es posible que llueva esta tarde.",
+    "Es verdad que el español es difícil. (indicative — fact)"
+  ]
+}

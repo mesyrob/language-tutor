@@ -1,0 +1,28 @@
+{
+  "id": "A2/24-cause-effect",
+  "level": "A2",
+  "order": 24,
+  "title": "Cause and effect connectors",
+  "objectives": [
+    "Explain reasons with 'porque' / 'ya que' / 'como'",
+    "Express consequences with 'por eso' / 'así que' / 'por lo tanto'"
+  ],
+  "vocab": [
+    {"es": "porque", "en": "because (most common)", "ru": "потому что"},
+    {"es": "ya que / puesto que", "en": "since / given that", "ru": "поскольку / так как"},
+    {"es": "como", "en": "since / as (at the start of a sentence)", "ru": "так как (в начале предл.)"},
+    {"es": "por eso", "en": "that's why / so", "ru": "поэтому"},
+    {"es": "así que", "en": "so / therefore (informal)", "ru": "так что"},
+    {"es": "por lo tanto", "en": "therefore (formal)", "ru": "следовательно"},
+    {"es": "es que ...", "en": "the thing is ... (giving a reason)", "ru": "дело в том, что..."}
+  ],
+  "grammar_notes": [
+    "'porque' answers a 'why' question and goes mid-sentence. 'como' starts the sentence: 'Como llovía, me quedé en casa.'",
+    "'es que ...' is a soft way to introduce an excuse or explanation in conversation."
+  ],
+  "example_phrases": [
+    "No salí porque estaba cansada.",
+    "Como hacía frío, me puse el abrigo.",
+    "Llovía mucho, así que cogimos un taxi."
+  ]
+}

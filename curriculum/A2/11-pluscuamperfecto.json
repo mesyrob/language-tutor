@@ -1,0 +1,27 @@
+{
+  "id": "A2/11-pluscuamperfecto",
+  "level": "A2",
+  "order": 11,
+  "title": "Past perfect — 'had done' before another past event",
+  "objectives": [
+    "Form the pluperfect with 'había + participle'",
+    "Use it to mark something that happened BEFORE another past event"
+  ],
+  "vocab": [
+    {"es": "había / habías / había / habíamos / habíais / habían", "en": "imperfect of haber", "ru": "был / была (вспомогательный)"},
+    {"es": "el participio", "en": "past participle", "ru": "причастие прошедшего времени"},
+    {"es": "hablado / comido / vivido", "en": "spoken / eaten / lived", "ru": "сказан / съеден / прожит"},
+    {"es": "visto / hecho / dicho / escrito / abierto / vuelto / puesto", "en": "common irregular participles", "ru": "видан / сделан / сказан / написан / открыт / возвращён / положен"}
+  ],
+  "grammar_notes": [
+    "Form: imperfect of 'haber' (había) + participle. 'Había comido' = 'I had eaten'.",
+    "Regular participles: -ar → -ado (hablado), -er/-ir → -ido (comido, vivido).",
+    "Used for an action completed BEFORE another past action: 'Cuando llegué, ya habían comido.' (When I arrived, they had already eaten.)",
+    "Russian parallel: 'уже поел' / 'уже сделал' before another past action — same intuition."
+  ],
+  "example_phrases": [
+    "Cuando llegamos, la película ya había empezado.",
+    "Nunca había visto algo así.",
+    "Ella dijo que ya había terminado."
+  ]
+}

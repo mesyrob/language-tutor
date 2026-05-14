@@ -1,0 +1,28 @@
+{
+  "id": "A2/12-direct-object-pronouns",
+  "level": "A2",
+  "order": 12,
+  "title": "Direct object pronouns: lo, la, los, las",
+  "objectives": [
+    "Replace direct objects with pronouns",
+    "Place pronouns correctly before conjugated verbs"
+  ],
+  "vocab": [
+    {"es": "me", "en": "me", "ru": "меня"},
+    {"es": "te", "en": "you (familiar)", "ru": "тебя"},
+    {"es": "lo / la", "en": "him / it (m.) / her / it (f.)", "ru": "его / её"},
+    {"es": "nos", "en": "us", "ru": "нас"},
+    {"es": "os", "en": "you all (Spain)", "ru": "вас (Испания)"},
+    {"es": "los / las", "en": "them (m./f.)", "ru": "их"}
+  ],
+  "grammar_notes": [
+    "Direct object pronouns go BEFORE the conjugated verb: '¿Tienes el libro?' → '¿Lo tienes?'",
+    "With infinitives or gerunds you can attach them: 'Quiero verlo' / 'Lo quiero ver' — both correct.",
+    "Russian uses case endings on the noun (книгу) — Spanish uses pronouns. The information is the same; the mechanism differs."
+  ],
+  "example_phrases": [
+    "¿Conoces a María? — Sí, la conozco.",
+    "Necesito los papeles. — Los tengo aquí.",
+    "¿Me ves? — Sí, te veo."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "A2/01-preterito-indefinido-ar",
+  "level": "A2",
+  "order": 1,
+  "title": "Past tense (preterite): regular -ar verbs",
+  "objectives": [
+    "Form the preterite of any regular -ar verb",
+    "Talk about completed past actions"
+  ],
+  "vocab": [
+    {"es": "hablé / hablaste / habló / hablamos / hablasteis / hablaron", "en": "preterite of hablar", "ru": "говорил (все формы)"},
+    {"es": "trabajé / trabajaste / trabajó", "en": "I/you/he-she worked", "ru": "работал / работала"},
+    {"es": "compré", "en": "I bought", "ru": "купил / купила"},
+    {"es": "estudié", "en": "I studied", "ru": "учился / училась"},
+    {"es": "cocinaste", "en": "you cooked", "ru": "ты готовил(а)"},
+    {"es": "viajaron", "en": "they travelled", "ru": "они путешествовали"}
+  ],
+  "grammar_notes": [
+    "Endings for regular -ar: -é, -aste, -ó, -amos, -asteis, -aron.",
+    "Note the accents on yo (-é) and él/ella (-ó) — they distinguish past from present.",
+    "'hablamos' is identical in present and preterite — context clarifies.",
+    "The preterite is for COMPLETED actions in the past — like Russian perfective aspect (сделал, купил)."
+  ],
+  "example_phrases": [
+    "Ayer trabajé hasta las ocho. (Yesterday I worked until eight.)",
+    "¿Qué compraste? (What did you buy?)",
+    "Estudiaron español el año pasado."
+  ]
+}

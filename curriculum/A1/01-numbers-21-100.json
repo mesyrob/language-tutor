@@ -1,0 +1,34 @@
+{
+  "id": "A1/01-numbers-21-100",
+  "level": "A1",
+  "order": 1,
+  "title": "Numbers 21 to 100",
+  "objectives": [
+    "Count from 21 to 100 in Spanish",
+    "Say your age and prices clearly"
+  ],
+  "vocab": [
+    {"es": "veintiuno", "en": "twenty-one", "ru": "двадцать один"},
+    {"es": "veintidós", "en": "twenty-two", "ru": "двадцать два"},
+    {"es": "treinta", "en": "thirty", "ru": "тридцать"},
+    {"es": "treinta y uno", "en": "thirty-one", "ru": "тридцать один"},
+    {"es": "cuarenta", "en": "forty", "ru": "сорок"},
+    {"es": "cincuenta", "en": "fifty", "ru": "пятьдесят"},
+    {"es": "sesenta", "en": "sixty", "ru": "шестьдесят"},
+    {"es": "setenta", "en": "seventy", "ru": "семьдесят"},
+    {"es": "ochenta", "en": "eighty", "ru": "восемьдесят"},
+    {"es": "noventa", "en": "ninety", "ru": "девяносто"},
+    {"es": "cien", "en": "one hundred (exactly)", "ru": "сто", "hint": "before a noun: cien euros"},
+    {"es": "ciento", "en": "one hundred (with more digits)", "ru": "сто", "hint": "ciento uno = 101"}
+  ],
+  "grammar_notes": [
+    "16-29 are written as ONE word: dieciséis, veintinueve.",
+    "31 and up are THREE words joined by 'y': treinta y uno, cincuenta y siete.",
+    "Use 'cien' for exactly 100; switch to 'ciento' when more digits follow (ciento uno = 101)."
+  ],
+  "example_phrases": [
+    "Tengo treinta y cinco años. (I'm 35 years old.)",
+    "Cuesta cuarenta y nueve euros. (It costs 49 euros.)",
+    "Hay cien personas aquí. (There are 100 people here.)"
+  ]
+}

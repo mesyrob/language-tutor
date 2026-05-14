@@ -1,0 +1,29 @@
+{
+  "id": "B1/08-imperative-with-pronouns",
+  "level": "B1",
+  "order": 8,
+  "title": "Imperative + pronouns",
+  "objectives": [
+    "Attach pronouns to affirmative commands",
+    "Place pronouns BEFORE negative commands"
+  ],
+  "vocab": [
+    {"es": "dímelo", "en": "tell it to me", "ru": "скажи мне это"},
+    {"es": "no me lo digas", "en": "don't tell it to me", "ru": "не говори мне этого"},
+    {"es": "siéntate", "en": "sit down (tú)", "ru": "сядь"},
+    {"es": "no te sientes", "en": "don't sit down (tú)", "ru": "не садись"},
+    {"es": "dámelo", "en": "give it to me", "ru": "дай мне это"},
+    {"es": "ponlo aquí", "en": "put it here", "ru": "положи это сюда"}
+  ],
+  "grammar_notes": [
+    "Affirmative commands: pronouns ATTACH to the end. 'Dame el libro.' / 'Dámelo.'",
+    "Negative commands: pronouns go BEFORE the verb. 'No me lo des.'",
+    "Adding a pronoun usually requires a written accent to preserve the original stress: 'dame' (no accent) → 'dámelo' (accent on dá).",
+    "Reflexive verbs follow the same rule: 'siéntate' (sit), 'no te sientes' (don't sit)."
+  ],
+  "example_phrases": [
+    "Cómprame el pan. — No me lo compres.",
+    "Dímelo todo.",
+    "Levántate, por favor. — No te levantes."
+  ]
+}

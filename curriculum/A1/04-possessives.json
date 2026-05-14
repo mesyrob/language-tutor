@@ -1,0 +1,28 @@
+{
+  "id": "A1/04-possessives",
+  "level": "A1",
+  "order": 4,
+  "title": "My, your, his/her — possessive adjectives",
+  "objectives": [
+    "Use possessive adjectives correctly",
+    "Make them agree with the thing possessed (not the owner)"
+  ],
+  "vocab": [
+    {"es": "mi / mis", "en": "my (sg. / pl.)", "ru": "мой / мои"},
+    {"es": "tu / tus", "en": "your (familiar, sg. / pl.)", "ru": "твой / твои"},
+    {"es": "su / sus", "en": "his / her / its / their / your (formal) — sg. / pl.", "ru": "его / её / их / Ваш"},
+    {"es": "nuestro / nuestra / nuestros / nuestras", "en": "our (m./f./m.pl./f.pl.)", "ru": "наш / наша / наши"},
+    {"es": "vuestro / vuestra / vuestros / vuestras", "en": "your-all (Spain)", "ru": "ваш / ваша / ваши (в Испании)"}
+  ],
+  "grammar_notes": [
+    "Possessives agree with the THING possessed, not the owner — same as Russian (мой стол / моя книга).",
+    "mi/tu/su have only sg./pl. forms (no gender). nuestro/vuestro have full gender + number agreement.",
+    "'su' is ambiguous (his/her/its/their/your-formal) — context fills the gap.",
+    "Don't confuse 'tu' (your) with 'tú' (you) — the accent matters."
+  ],
+  "example_phrases": [
+    "Mi madre es profesora. (My mum is a teacher.)",
+    "Tus libros están aquí. (Your books are here.)",
+    "Nuestra casa es pequeña. (Our house is small.)"
+  ]
+}

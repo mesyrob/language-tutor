@@ -1,0 +1,27 @@
+{
+  "id": "B1/10-conditional-hypothetical",
+  "level": "B1",
+  "order": 10,
+  "title": "Hypothetical conditionals — 'if I were ...'",
+  "objectives": [
+    "Form 'si + imperfecto de subjuntivo + condicional'",
+    "Express imaginary or contrary-to-fact situations"
+  ],
+  "vocab": [
+    {"es": "si tuviera ...", "en": "if I had ...", "ru": "если бы у меня было..."},
+    {"es": "si fuera ...", "en": "if I were ...", "ru": "если бы я был..."},
+    {"es": "si pudiera ...", "en": "if I could ...", "ru": "если бы я мог..."},
+    {"es": "estaría / iría / haría", "en": "I would be / go / do", "ru": "был бы / пошёл бы / сделал бы"}
+  ],
+  "grammar_notes": [
+    "Pattern: si + IMPERFECT SUBJUNCTIVE + CONDITIONAL. 'Si tuviera dinero, viajaría más.'",
+    "Use for imaginary or impossible situations: 'Si fuera rica...' (If I were rich...).",
+    "Russian: 'если бы у меня были деньги, я бы путешествовал больше' — direct match. The 'бы + past' construction = imperfect subjunctive + conditional in Spanish.",
+    "Lesson B1/11 covers how to form the imperfect subjunctive."
+  ],
+  "example_phrases": [
+    "Si tuviera tiempo, aprendería japonés.",
+    "Si fueras mi jefe, ¿qué cambiarías?",
+    "Si pudiera vivir donde quisiera, elegiría España."
+  ]
+}

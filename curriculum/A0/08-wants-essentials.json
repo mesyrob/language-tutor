@@ -1,0 +1,35 @@
+{
+  "id": "A0/08-wants-essentials",
+  "level": "A0",
+  "order": 8,
+  "title": "I want, I need — surviving a café",
+  "objectives": [
+    "Ask for food and drink",
+    "Say what you want or need",
+    "Recognize masculine vs feminine articles (el / la)"
+  ],
+  "vocab": [
+    {"es": "quiero", "en": "I want", "ru": "я хочу"},
+    {"es": "necesito", "en": "I need", "ru": "мне нужно"},
+    {"es": "tengo", "en": "I have", "ru": "у меня есть"},
+    {"es": "el agua", "en": "water (technically f., but uses 'el')", "ru": "вода", "hint": "exception — feminine word, but takes 'el' because it starts with stressed 'a'"},
+    {"es": "el café", "en": "coffee", "ru": "кофе"},
+    {"es": "el té", "en": "tea", "ru": "чай"},
+    {"es": "el pan", "en": "bread", "ru": "хлеб"},
+    {"es": "la comida", "en": "food / meal", "ru": "еда"},
+    {"es": "la cuenta", "en": "the bill / check", "ru": "счёт"},
+    {"es": "un / una", "en": "a / an (m. / f.)", "ru": "один / одна (как артикль)"},
+    {"es": "el / la", "en": "the (m. / f.)", "ru": "(определённый артикль м. / ж.)"}
+  ],
+  "grammar_notes": [
+    "Every Spanish noun has a gender — masculine (el / un) or feminine (la / una). Russian has three (м/ж/ср), Spanish has two.",
+    "Often -o = masculine, -a = feminine, but there are exceptions (el agua, el día, la mano).",
+    "Tip: learn each noun WITH its article — 'el café', not just 'café'."
+  ],
+  "example_phrases": [
+    "Un café, por favor. (A coffee, please.)",
+    "Quiero agua, gracias. (I want water, thanks.)",
+    "¿Tienes pan? — Sí, tengo. (Do you have bread? — Yes, I do.)",
+    "La cuenta, por favor. (The bill, please.)"
+  ]
+}

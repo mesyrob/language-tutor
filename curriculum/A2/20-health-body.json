@@ -1,0 +1,32 @@
+{
+  "id": "A2/20-health-body",
+  "level": "A2",
+  "order": 20,
+  "title": "Health and the body",
+  "objectives": [
+    "Name body parts and basic symptoms",
+    "Describe an ailment using 'me duele ...'"
+  ],
+  "vocab": [
+    {"es": "la cabeza", "en": "head", "ru": "голова"},
+    {"es": "los ojos / las orejas / la boca / la nariz", "en": "eyes / ears / mouth / nose", "ru": "глаза / уши / рот / нос"},
+    {"es": "los dientes", "en": "teeth", "ru": "зубы"},
+    {"es": "el brazo / la mano", "en": "arm / hand", "ru": "рука (плечо-кисть) / кисть"},
+    {"es": "la pierna / el pie", "en": "leg / foot", "ru": "нога / ступня"},
+    {"es": "el estómago", "en": "stomach", "ru": "живот"},
+    {"es": "la espalda", "en": "back", "ru": "спина"},
+    {"es": "me duele / me duelen", "en": "it hurts / they hurt (me)", "ru": "у меня болит / болят"},
+    {"es": "estar enfermo / enferma", "en": "to be sick (m./f.)", "ru": "быть больным"},
+    {"es": "el médico / la médica", "en": "doctor", "ru": "врач"},
+    {"es": "la receta", "en": "prescription", "ru": "рецепт"}
+  ],
+  "grammar_notes": [
+    "'doler' works like 'gustar': the thing that hurts is the subject. 'Me duele la cabeza' (lit. 'the head hurts me').",
+    "Russian uses 'у меня болит голова' — same backwards subject logic."
+  ],
+  "example_phrases": [
+    "Me duele la cabeza.",
+    "Me duelen los pies después de caminar.",
+    "Necesito ir al médico."
+  ]
+}

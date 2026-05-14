@@ -1,0 +1,32 @@
+{
+  "id": "A1/13-telling-time",
+  "level": "A1",
+  "order": 13,
+  "title": "Telling the time",
+  "objectives": [
+    "Ask and answer what time it is",
+    "Say at what time something happens"
+  ],
+  "vocab": [
+    {"es": "¿qué hora es?", "en": "what time is it?", "ru": "который час?"},
+    {"es": "es la una", "en": "it's one o'clock", "ru": "сейчас час"},
+    {"es": "son las dos", "en": "it's two o'clock", "ru": "сейчас два часа"},
+    {"es": "y media", "en": "half past", "ru": "половина"},
+    {"es": "y cuarto", "en": "quarter past", "ru": "четверть"},
+    {"es": "menos cuarto", "en": "quarter to", "ru": "без четверти"},
+    {"es": "en punto", "en": "on the dot / sharp", "ru": "ровно"},
+    {"es": "de la mañana / tarde / noche", "en": "AM / afternoon / evening-night", "ru": "утра / дня / вечера"},
+    {"es": "¿a qué hora?", "en": "at what time?", "ru": "во сколько?"},
+    {"es": "a las ...", "en": "at ... o'clock", "ru": "в ... часов"}
+  ],
+  "grammar_notes": [
+    "Use 'es la' only for 1:00 (singular). Everything else uses 'son las'.",
+    "Past the half hour, Spanish often counts BACK from the next hour: las tres menos diez = 2:50.",
+    "To ask when something happens: ¿a qué hora ...? To answer: a las ..."
+  ],
+  "example_phrases": [
+    "Son las nueve y media de la mañana. (It's 9:30 AM.)",
+    "El tren sale a las once en punto. (The train leaves at 11:00 sharp.)",
+    "¿A qué hora comes? — A la una y cuarto."
+  ]
+}

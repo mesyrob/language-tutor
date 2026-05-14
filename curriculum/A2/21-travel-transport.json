@@ -1,0 +1,33 @@
+{
+  "id": "A2/21-travel-transport",
+  "level": "A2",
+  "order": 21,
+  "title": "Travel and transport",
+  "objectives": [
+    "Talk about means of transport",
+    "Handle airport, station, and hotel basics"
+  ],
+  "vocab": [
+    {"es": "el avión", "en": "airplane", "ru": "самолёт"},
+    {"es": "el tren", "en": "train", "ru": "поезд"},
+    {"es": "el autobús / el bus", "en": "bus", "ru": "автобус"},
+    {"es": "el coche / el carro", "en": "car (Spain / LatAm)", "ru": "машина"},
+    {"es": "el metro", "en": "underground / subway", "ru": "метро"},
+    {"es": "el billete / el boleto", "en": "ticket (Spain / LatAm)", "ru": "билет"},
+    {"es": "la estación", "en": "station", "ru": "вокзал / станция"},
+    {"es": "el aeropuerto", "en": "airport", "ru": "аэропорт"},
+    {"es": "el hotel", "en": "hotel", "ru": "отель / гостиница"},
+    {"es": "una habitación", "en": "a room", "ru": "номер"},
+    {"es": "el equipaje", "en": "luggage", "ru": "багаж"},
+    {"es": "llegar / salir", "en": "to arrive / to leave", "ru": "приезжать / уезжать"}
+  ],
+  "grammar_notes": [
+    "Use 'en' for means of transport: 'en avión', 'en tren', 'en coche'. Exception: 'a pie' (on foot).",
+    "Spain says 'coche / billete', most of Latin America 'carro / boleto'. Both correct."
+  ],
+  "example_phrases": [
+    "Viajamos a Italia en avión.",
+    "El tren llega a las ocho de la mañana.",
+    "Quiero reservar una habitación para dos noches."
+  ]
+}

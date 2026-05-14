@@ -1,0 +1,32 @@
+{
+  "id": "B1/26-media-news",
+  "level": "B1",
+  "order": 26,
+  "title": "Media and news",
+  "objectives": [
+    "Talk about news and media consumption",
+    "Recognize headlines and TV/radio vocabulary"
+  ],
+  "vocab": [
+    {"es": "el periódico", "en": "newspaper", "ru": "газета"},
+    {"es": "la noticia / las noticias", "en": "news (item / TV news)", "ru": "новость / новости"},
+    {"es": "el titular", "en": "headline", "ru": "заголовок"},
+    {"es": "la prensa", "en": "the press", "ru": "пресса"},
+    {"es": "el anuncio", "en": "advertisement / announcement", "ru": "реклама / объявление"},
+    {"es": "las redes sociales", "en": "social media", "ru": "социальные сети"},
+    {"es": "la televisión", "en": "TV", "ru": "телевидение"},
+    {"es": "la radio", "en": "radio", "ru": "радио"},
+    {"es": "el canal", "en": "channel", "ru": "канал"},
+    {"es": "el reportaje", "en": "report / feature", "ru": "репортаж"},
+    {"es": "el / la periodista", "en": "journalist", "ru": "журналист(ка)"}
+  ],
+  "grammar_notes": [
+    "'noticias' (always plural in this sense) = 'the news' (as in TV news). 'una noticia' = a single news item.",
+    "'la radio' is feminine; 'el radio' often means the appliance or radius in some dialects."
+  ],
+  "example_phrases": [
+    "Veo las noticias todas las mañanas.",
+    "El titular dice que el gobierno aprobó la ley.",
+    "Sigo a varios periodistas en redes sociales."
+  ]
+}

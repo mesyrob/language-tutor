@@ -1,0 +1,29 @@
+{
+  "id": "B1/24-argumentation-connectors",
+  "level": "B1",
+  "order": 24,
+  "title": "Argumentation connectors",
+  "objectives": [
+    "Contrast and concede ideas in conversation",
+    "Sound more native by using discourse markers"
+  ],
+  "vocab": [
+    {"es": "sin embargo", "en": "however", "ru": "однако"},
+    {"es": "no obstante", "en": "nevertheless", "ru": "тем не менее"},
+    {"es": "por lo tanto", "en": "therefore", "ru": "следовательно"},
+    {"es": "en cambio", "en": "on the other hand", "ru": "с другой стороны"},
+    {"es": "mientras que", "en": "whereas", "ru": "в то время как"},
+    {"es": "a pesar de (que)", "en": "in spite of / although", "ru": "несмотря на (то что)"},
+    {"es": "aunque", "en": "although / even though", "ru": "хотя"},
+    {"es": "por un lado / por otro lado", "en": "on the one hand / on the other hand", "ru": "с одной стороны / с другой"}
+  ],
+  "grammar_notes": [
+    "'aunque' takes INDICATIVE when stating a fact ('Aunque llueve, voy.' — 'Although it's raining, I'm going') and SUBJUNCTIVE when hypothesizing ('Aunque llueva, voy.' — 'Even if it rains, I'm going').",
+    "'a pesar de + noun/infinitive', 'a pesar de que + clause'."
+  ],
+  "example_phrases": [
+    "Está cansado; sin embargo, sigue trabajando.",
+    "Quiero ir, pero no tengo tiempo.",
+    "Aunque llueva, iré al partido."
+  ]
+}

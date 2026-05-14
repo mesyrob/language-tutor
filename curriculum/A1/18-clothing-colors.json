@@ -1,0 +1,36 @@
+{
+  "id": "A1/18-clothing-colors",
+  "level": "A1",
+  "order": 18,
+  "title": "Clothing and colors",
+  "objectives": [
+    "Name common clothing items and colors",
+    "Describe what someone is wearing with correct agreement"
+  ],
+  "vocab": [
+    {"es": "la ropa", "en": "clothes", "ru": "одежда"},
+    {"es": "la camisa / la camiseta", "en": "shirt / T-shirt", "ru": "рубашка / футболка"},
+    {"es": "los pantalones", "en": "trousers / pants", "ru": "брюки"},
+    {"es": "la falda", "en": "skirt", "ru": "юбка"},
+    {"es": "el vestido", "en": "dress", "ru": "платье"},
+    {"es": "los zapatos", "en": "shoes", "ru": "обувь"},
+    {"es": "el abrigo", "en": "coat", "ru": "пальто"},
+    {"es": "rojo / roja", "en": "red", "ru": "красный / красная"},
+    {"es": "azul", "en": "blue", "ru": "синий"},
+    {"es": "verde", "en": "green", "ru": "зелёный"},
+    {"es": "amarillo / amarilla", "en": "yellow", "ru": "жёлтый"},
+    {"es": "blanco / blanca", "en": "white", "ru": "белый"},
+    {"es": "negro / negra", "en": "black", "ru": "чёрный"},
+    {"es": "llevar", "en": "to wear / carry", "ru": "носить (одежду)"}
+  ],
+  "grammar_notes": [
+    "Colors agree in gender and number: el coche rojo, la camisa roja, los zapatos rojos.",
+    "Colors ending in -e or consonant don't change gender (azul, verde, gris) — only number (azules, verdes).",
+    "Russian also has gendered color adjectives (красный/красная/красное) — same intuition, fewer genders in Spanish."
+  ],
+  "example_phrases": [
+    "Lleva una camisa azul.",
+    "Mis zapatos son negros.",
+    "Me gusta el vestido verde."
+  ]
+}

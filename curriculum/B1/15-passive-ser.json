@@ -1,0 +1,26 @@
+{
+  "id": "B1/15-passive-ser",
+  "level": "B1",
+  "order": 15,
+  "title": "Passive voice with 'ser'",
+  "objectives": [
+    "Form passive constructions with 'ser + participle'",
+    "Use 'por' to introduce the agent"
+  ],
+  "vocab": [
+    {"es": "ser + participio", "en": "to be + done (passive)", "ru": "быть + причастие"},
+    {"es": "por", "en": "by (agent)", "ru": "кем (творительный)"},
+    {"es": "construido / escrito / firmado", "en": "built / written / signed", "ru": "построен / написан / подписан"},
+    {"es": "robado / vendido / publicado", "en": "stolen / sold / published", "ru": "украден / продан / опубликован"}
+  ],
+  "grammar_notes": [
+    "Pattern: subject + ser + participio (agreeing in gender/number) + por + agent. 'El libro fue escrito por Cervantes.'",
+    "Participle AGREES with the subject: 'La casa fue construida' (f.), 'Los libros fueron escritos' (m.pl.).",
+    "Spanish prefers active voice or 'se'-passive (next lesson) over true passive — true passive sounds slightly formal."
+  ],
+  "example_phrases": [
+    "La novela fue escrita por García Márquez.",
+    "El museo fue construido en 1850.",
+    "Las cartas fueron firmadas por el director."
+  ]
+}

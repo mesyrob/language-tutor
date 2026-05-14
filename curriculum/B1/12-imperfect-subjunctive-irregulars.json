@@ -1,0 +1,30 @@
+{
+  "id": "B1/12-imperfect-subjunctive-irregulars",
+  "level": "B1",
+  "order": 12,
+  "title": "Imperfect subjunctive — irregular stems",
+  "objectives": [
+    "Form irregular imperfect subjunctives from preterite stems",
+    "Drill the highest-frequency irregulars"
+  ],
+  "vocab": [
+    {"es": "fuera (ser/ir)", "en": "I were / went", "ru": "был бы / пошёл бы"},
+    {"es": "tuviera (tener)", "en": "I had", "ru": "имел бы / у меня было бы"},
+    {"es": "hiciera (hacer)", "en": "I did", "ru": "сделал бы"},
+    {"es": "dijera (decir)", "en": "I said", "ru": "сказал бы"},
+    {"es": "pudiera (poder)", "en": "I could", "ru": "мог бы"},
+    {"es": "quisiera (querer)", "en": "I wanted", "ru": "хотел бы"},
+    {"es": "supiera (saber)", "en": "I knew", "ru": "знал бы"},
+    {"es": "estuviera (estar)", "en": "I were (state)", "ru": "был бы (состояние)"},
+    {"es": "viniera (venir)", "en": "I came", "ru": "пришёл бы"}
+  ],
+  "grammar_notes": [
+    "Same trick: take the preterite ELLOS form (fueron, tuvieron, hicieron, dijeron, pudieron, quisieron, supieron, estuvieron, vinieron), drop -ron, add -ra endings.",
+    "'quisiera' is also a very polite request: 'Quisiera un café' = 'I'd like a coffee' (softer than 'quiero')."
+  ],
+  "example_phrases": [
+    "Si tuviera tiempo, te ayudaría.",
+    "Quisiera reservar una mesa.",
+    "Si supiera la respuesta, te la diría."
+  ]
+}

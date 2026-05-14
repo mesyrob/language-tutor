@@ -1,0 +1,30 @@
+{
+  "id": "A2/04-preterito-irregulars-2",
+  "level": "A2",
+  "order": 4,
+  "title": "Preterite irregulars II: poder, poner, querer, saber, venir, decir, traer",
+  "objectives": [
+    "Conjugate more irregular preterites",
+    "Notice the j-stem group (decir, traer)"
+  ],
+  "vocab": [
+    {"es": "pude / pudiste / pudo / pudimos / pudisteis / pudieron", "en": "preterite of poder", "ru": "смог / могла"},
+    {"es": "puse / pusiste / puso", "en": "preterite of poner (to put)", "ru": "положил"},
+    {"es": "quise / quisiste / quiso", "en": "preterite of querer", "ru": "хотел / захотел"},
+    {"es": "supe / supiste / supo", "en": "preterite of saber (found out)", "ru": "узнал"},
+    {"es": "vine / viniste / vino", "en": "preterite of venir", "ru": "пришёл"},
+    {"es": "dije / dijiste / dijo / dijimos / dijisteis / dijeron", "en": "preterite of decir", "ru": "сказал", "hint": "j-stem: 3rd person plural is -eron, not -ieron"},
+    {"es": "traje / trajiste / trajo / trajimos / trajisteis / trajeron", "en": "preterite of traer", "ru": "принёс"}
+  ],
+  "grammar_notes": [
+    "Same special endings as group I: -e, -iste, -o, -imos, -isteis, -ieron.",
+    "J-stem verbs (decir → dij-, traer → traj-, conducir → conduj-) use -eron (not -ieron) in 3rd person plural.",
+    "'saber' in preterite means 'found out' (a moment), not 'knew' (a state). 'Supe que...' = 'I learned that...'.",
+    "'querer' in preterite means 'tried to / wanted (a one-off)', often 'no quise' = 'I refused'."
+  ],
+  "example_phrases": [
+    "Dijo que sí. (He/she said yes.)",
+    "No pude dormir anoche. (I couldn't sleep last night.)",
+    "Vinieron a la fiesta."
+  ]
+}

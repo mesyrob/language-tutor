@@ -1,0 +1,31 @@
+{
+  "id": "A1/08-family",
+  "level": "A1",
+  "order": 8,
+  "title": "Family",
+  "objectives": [
+    "Talk about your family in Spanish",
+    "Use possessives with family terms"
+  ],
+  "vocab": [
+    {"es": "la familia", "en": "the family", "ru": "семья"},
+    {"es": "el padre / la madre", "en": "father / mother", "ru": "отец / мать"},
+    {"es": "papá / mamá", "en": "dad / mum", "ru": "папа / мама"},
+    {"es": "el hijo / la hija", "en": "son / daughter", "ru": "сын / дочь"},
+    {"es": "el hermano / la hermana", "en": "brother / sister", "ru": "брат / сестра"},
+    {"es": "el abuelo / la abuela", "en": "grandfather / grandmother", "ru": "дедушка / бабушка"},
+    {"es": "el tío / la tía", "en": "uncle / aunt", "ru": "дядя / тётя"},
+    {"es": "el primo / la prima", "en": "cousin (m./f.)", "ru": "двоюродный брат / сестра"},
+    {"es": "el marido / la mujer", "en": "husband / wife", "ru": "муж / жена"},
+    {"es": "los padres", "en": "parents (m.pl. covers both)", "ru": "родители"},
+    {"es": "los hijos", "en": "children", "ru": "дети"}
+  ],
+  "grammar_notes": [
+    "Masculine plural covers mixed groups: 'los hermanos' = brothers or siblings (mixed). Same in Russian (братья и сёстры → дети)."
+  ],
+  "example_phrases": [
+    "Mi madre se llama Elena. (My mum is called Elena.)",
+    "Tengo un hermano y dos hermanas.",
+    "Mis abuelos viven en el campo. (My grandparents live in the countryside.)"
+  ]
+}

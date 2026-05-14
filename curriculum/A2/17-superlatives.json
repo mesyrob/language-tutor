@@ -1,0 +1,28 @@
+{
+  "id": "A2/17-superlatives",
+  "level": "A2",
+  "order": 17,
+  "title": "Superlatives — the most, the least",
+  "objectives": [
+    "Form relative superlatives (the most/least)",
+    "Use absolute superlatives with -ísimo"
+  ],
+  "vocab": [
+    {"es": "el / la / los / las más + adj. + de", "en": "the most ... of/in", "ru": "самый ... из"},
+    {"es": "el / la / los / las menos + adj. + de", "en": "the least ... of/in", "ru": "наименее ... из"},
+    {"es": "-ísimo / -ísima", "en": "very (absolute superlative)", "ru": "очень-очень"},
+    {"es": "grandísimo", "en": "huge", "ru": "огромный"},
+    {"es": "carísimo", "en": "really expensive", "ru": "очень дорогой"},
+    {"es": "buenísimo", "en": "really good (NOT mejorísimo)", "ru": "очень хороший"}
+  ],
+  "grammar_notes": [
+    "Relative superlative: 'el coche más rápido de España' (the fastest car IN Spain). Note 'de', not 'en'.",
+    "Absolute superlative: replace final vowel with -ísimo. 'rico' → 'riquísimo' (with spelling change c→qu to keep sound).",
+    "For irregulars use 'el mejor' / 'el peor' / 'el mayor' / 'el menor'."
+  ],
+  "example_phrases": [
+    "Es la ciudad más bonita de España.",
+    "La comida estaba buenísima.",
+    "Mi primo es el mayor de la familia."
+  ]
+}

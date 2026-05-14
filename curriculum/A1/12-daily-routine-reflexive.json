@@ -1,0 +1,31 @@
+{
+  "id": "A1/12-daily-routine-reflexive",
+  "level": "A1",
+  "order": 12,
+  "title": "Daily routine + reflexive verbs",
+  "objectives": [
+    "Describe a daily routine in Spanish",
+    "Recognize and use basic reflexive verbs"
+  ],
+  "vocab": [
+    {"es": "levantarse", "en": "to get up", "ru": "вставать"},
+    {"es": "ducharse", "en": "to shower", "ru": "принимать душ"},
+    {"es": "vestirse", "en": "to get dressed", "ru": "одеваться"},
+    {"es": "desayunar", "en": "to have breakfast", "ru": "завтракать"},
+    {"es": "lavarse los dientes", "en": "to brush one's teeth", "ru": "чистить зубы"},
+    {"es": "acostarse", "en": "to go to bed", "ru": "ложиться спать"},
+    {"es": "dormir", "en": "to sleep", "ru": "спать"},
+    {"es": "me / te / se / nos / os / se", "en": "reflexive pronouns", "ru": "себя (по лицам)"},
+    {"es": "por la mañana / tarde / noche", "en": "in the morning / afternoon / evening", "ru": "утром / днём / вечером"}
+  ],
+  "grammar_notes": [
+    "Reflexive verbs have a -se on the infinitive: levantarse, ducharse. The action turns back on the subject.",
+    "Conjugate normally, and add the matching pronoun BEFORE the verb: yo me levanto, tú te levantas, él se levanta.",
+    "Russian uses -ся (одеваться, мыться) — same idea. The Spanish 'me/te/se' carries the same role as Russian '-ся'."
+  ],
+  "example_phrases": [
+    "Me levanto a las siete. (I get up at seven.)",
+    "Se ducha por la mañana. (He/she showers in the morning.)",
+    "¿A qué hora te acuestas? (What time do you go to bed?)"
+  ]
+}

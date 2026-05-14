@@ -1,0 +1,28 @@
+{
+  "id": "A1/09-hay",
+  "level": "A1",
+  "order": 9,
+  "title": "Hay — there is / there are",
+  "objectives": [
+    "Use 'hay' to say what exists in a place",
+    "Distinguish 'hay' from 'estar' (location of a known thing)"
+  ],
+  "vocab": [
+    {"es": "hay", "en": "there is / there are", "ru": "есть / имеется", "hint": "single form for both singular and plural"},
+    {"es": "no hay", "en": "there isn't / there aren't", "ru": "нет / не имеется"},
+    {"es": "¿hay ...?", "en": "is there ... / are there ...?", "ru": "есть ли ...?"},
+    {"es": "mucho / mucha", "en": "much / a lot of (m./f.)", "ru": "много"},
+    {"es": "poco / poca", "en": "little / not much (m./f.)", "ru": "мало"},
+    {"es": "algunos / algunas", "en": "some (m.pl./f.pl.)", "ru": "несколько"}
+  ],
+  "grammar_notes": [
+    "'hay' = 'there is/are'. Used to introduce something NEW or unknown into the conversation.",
+    "'está/están' = location of something ALREADY KNOWN. Compare: Hay un libro en la mesa. → El libro está en la mesa.",
+    "Russian has no perfect parallel — closest is 'есть' (existence) vs 'находится' (location)."
+  ],
+  "example_phrases": [
+    "Hay un perro en el parque. (There's a dog in the park.)",
+    "¿Hay agua? — No, no hay.",
+    "En mi clase hay veinte estudiantes."
+  ]
+}

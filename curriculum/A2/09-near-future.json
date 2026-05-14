@@ -1,0 +1,28 @@
+{
+  "id": "A2/09-near-future",
+  "level": "A2",
+  "order": 9,
+  "title": "Near future: 'ir a + infinitive'",
+  "objectives": [
+    "Express plans and predictions with 'ir a + infinitivo'",
+    "Use it for the most common form of 'future' in everyday speech"
+  ],
+  "vocab": [
+    {"es": "voy a / vas a / va a / vamos a / vais a / van a", "en": "I'm going to, you're going to, etc.", "ru": "собираюсь / собираешься..."},
+    {"es": "ahora mismo", "en": "right now", "ru": "прямо сейчас"},
+    {"es": "esta tarde / esta noche", "en": "this afternoon / tonight", "ru": "сегодня днём / вечером"},
+    {"es": "mañana", "en": "tomorrow", "ru": "завтра"},
+    {"es": "la próxima semana", "en": "next week", "ru": "на следующей неделе"},
+    {"es": "dentro de una hora", "en": "in an hour (from now)", "ru": "через час"}
+  ],
+  "grammar_notes": [
+    "Pattern: 'ir' conjugated + 'a' + infinitive. Voy a comer = I'm going to eat.",
+    "This is by FAR the most common way to express the future in spoken Spanish — more common than the future tense itself.",
+    "Russian parallel: 'я собираюсь поесть' or 'я буду есть' — Spanish leans on the 'going to' shape."
+  ],
+  "example_phrases": [
+    "Voy a estudiar esta tarde. (I'm going to study this afternoon.)",
+    "Mañana vamos a viajar a Barcelona.",
+    "¿Qué vas a hacer el fin de semana?"
+  ]
+}

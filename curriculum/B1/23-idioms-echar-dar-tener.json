@@ -1,0 +1,31 @@
+{
+  "id": "B1/23-idioms-echar-dar-tener",
+  "level": "B1",
+  "order": 23,
+  "title": "Idioms with echar, dar, tener",
+  "objectives": [
+    "Recognize and use common multi-word expressions",
+    "Use them naturally in conversation"
+  ],
+  "vocab": [
+    {"es": "echar de menos", "en": "to miss (a person/place)", "ru": "скучать по"},
+    {"es": "echar una mano", "en": "to lend a hand / help", "ru": "помочь"},
+    {"es": "echar la siesta", "en": "to take a nap", "ru": "поспать днём"},
+    {"es": "dar igual / dar lo mismo", "en": "to not matter", "ru": "всё равно"},
+    {"es": "dar miedo", "en": "to be scary / make afraid", "ru": "пугать"},
+    {"es": "dar pena", "en": "to make sad", "ru": "вызывать жалость"},
+    {"es": "darse cuenta de", "en": "to realize", "ru": "осознавать"},
+    {"es": "tener ganas de", "en": "to feel like (doing)", "ru": "хотеть (что-то делать)"},
+    {"es": "tener que ver con", "en": "to have to do with", "ru": "иметь отношение к"},
+    {"es": "tomar el pelo", "en": "to pull someone's leg", "ru": "разыгрывать"}
+  ],
+  "grammar_notes": [
+    "Idioms don't translate literally — memorize as whole units.",
+    "'dar' idioms often pattern like 'gustar' (the thing causes the reaction): 'Me da miedo' = 'it scares me'."
+  ],
+  "example_phrases": [
+    "Echo de menos a mi familia.",
+    "Tengo ganas de ir a la playa.",
+    "Me di cuenta de mi error."
+  ]
+}

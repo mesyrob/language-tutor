@@ -1,0 +1,32 @@
+{
+  "id": "A0/06-nationality-origin",
+  "level": "A0",
+  "order": 6,
+  "title": "Where are you from?",
+  "objectives": [
+    "Ask and answer where someone is from",
+    "State your nationality with correct gender ending"
+  ],
+  "vocab": [
+    {"es": "¿de dónde eres?", "en": "where are you from? (familiar)", "ru": "откуда ты?"},
+    {"es": "soy de ...", "en": "I'm from ...", "ru": "я из ..."},
+    {"es": "Rusia", "en": "Russia", "ru": "Россия"},
+    {"es": "España", "en": "Spain", "ru": "Испания"},
+    {"es": "Moscú", "en": "Moscow", "ru": "Москва"},
+    {"es": "ruso", "en": "Russian (male)", "ru": "русский"},
+    {"es": "rusa", "en": "Russian (female)", "ru": "русская"},
+    {"es": "español", "en": "Spanish (male)", "ru": "испанец"},
+    {"es": "española", "en": "Spanish (female)", "ru": "испанка"},
+    {"es": "inglés", "en": "English (male)", "ru": "англичанин"},
+    {"es": "inglesa", "en": "English (female)", "ru": "англичанка"}
+  ],
+  "grammar_notes": [
+    "Spanish nationality adjectives change with gender — exactly like Russian (русский / русская).",
+    "Country names are capitalized (Rusia, España) but nationalities are NOT (ruso, español). Different from English.",
+    "Use 'soy' (from ser) for nationality — it's part of your permanent identity."
+  ],
+  "example_phrases": [
+    "— ¿De dónde eres? — Soy de Rusia, de Moscú.",
+    "— ¿Eres rusa? — Sí, soy rusa. Y tú, ¿eres español? — No, soy inglés."
+  ]
+}

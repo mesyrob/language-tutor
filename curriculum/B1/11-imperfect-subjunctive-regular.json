@@ -1,0 +1,25 @@
+{
+  "id": "B1/11-imperfect-subjunctive-regular",
+  "level": "B1",
+  "order": 11,
+  "title": "Imperfect subjunctive — regular forms",
+  "objectives": [
+    "Derive the imperfect subjunctive from the preterite 3rd-person plural",
+    "Form -ara/-iera endings"
+  ],
+  "vocab": [
+    {"es": "hablara / hablaras / hablara / habláramos / hablarais / hablaran", "en": "imp. subj. of hablar", "ru": "сосл. имперф. от hablar"},
+    {"es": "comiera / comieras / comiera / comiéramos / comierais / comieran", "en": "imp. subj. of comer", "ru": "сосл. имперф. от comer"},
+    {"es": "viviera / vivieras / viviera / viviéramos / vivierais / vivieran", "en": "imp. subj. of vivir", "ru": "сосл. имперф. от vivir"}
+  ],
+  "grammar_notes": [
+    "Trick: take the preterite ELLOS form (hablaron, comieron, vivieron). Drop -ron. Add -ra, -ras, -ra, -´ramos, -rais, -ran.",
+    "Note the accent on the nosotros form: habláramos, comiéramos.",
+    "There's an alternative -se ending (hablase, comiese, viviese) — slightly more formal, more common in Spain. Same meaning."
+  ],
+  "example_phrases": [
+    "Si hablara más español, conseguiría el trabajo.",
+    "Quería que vinieras conmigo.",
+    "Era importante que estudiáramos juntos."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "A1/15-common-irregulars",
+  "level": "A1",
+  "order": 15,
+  "title": "Key irregular verbs: ir, hacer, querer, poder",
+  "objectives": [
+    "Conjugate four very common irregular verbs",
+    "Build sentences about wanting, going, doing, being able"
+  ],
+  "vocab": [
+    {"es": "ir", "en": "to go", "ru": "идти / ехать"},
+    {"es": "voy / vas / va / vamos / vais / van", "en": "go (all persons)", "ru": "иду / идёшь / идёт..."},
+    {"es": "hacer", "en": "to do / to make", "ru": "делать"},
+    {"es": "hago / haces / hace / hacemos / hacéis / hacen", "en": "do (all persons)", "ru": "делаю / делаешь..."},
+    {"es": "querer", "en": "to want / to love (person)", "ru": "хотеть / любить"},
+    {"es": "quiero / quieres / quiere / queremos / queréis / quieren", "en": "want", "ru": "хочу / хочешь..."},
+    {"es": "poder", "en": "can / to be able to", "ru": "мочь"},
+    {"es": "puedo / puedes / puede / podemos / podéis / pueden", "en": "can", "ru": "могу / можешь..."}
+  ],
+  "grammar_notes": [
+    "querer and poder are 'stem-changing': e→ie (quiero), o→ue (puedo). The nosotros/vosotros forms keep the original stem (queremos, podemos).",
+    "ir is fully irregular. Memorize voy/vas/va/vamos/vais/van.",
+    "hacer is irregular only in yo (hago); rest are regular -er.",
+    "Two useful constructions: 'querer + infinitive' (I want to ...) and 'poder + infinitive' (I can ...)."
+  ],
+  "example_phrases": [
+    "Voy al supermercado. (I'm going to the supermarket.)",
+    "¿Quieres comer algo? (Do you want to eat something?)",
+    "No puedo hablar ahora. (I can't talk right now.)"
+  ]
+}

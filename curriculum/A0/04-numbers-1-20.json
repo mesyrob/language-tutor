@@ -1,0 +1,39 @@
+{
+  "id": "A0/04-numbers-1-20",
+  "level": "A0",
+  "order": 4,
+  "title": "Numbers 1 to 20",
+  "objectives": [
+    "Count from 1 to 20 in Spanish",
+    "Recognize numbers in everyday phrases (prices, ages, phone digits)"
+  ],
+  "vocab": [
+    {"es": "uno", "en": "one", "ru": "один"},
+    {"es": "dos", "en": "two", "ru": "два"},
+    {"es": "tres", "en": "three", "ru": "три"},
+    {"es": "cuatro", "en": "four", "ru": "четыре", "hint": "KWAH-troh"},
+    {"es": "cinco", "en": "five", "ru": "пять", "hint": "SEEN-koh"},
+    {"es": "seis", "en": "six", "ru": "шесть"},
+    {"es": "siete", "en": "seven", "ru": "семь"},
+    {"es": "ocho", "en": "eight", "ru": "восемь"},
+    {"es": "nueve", "en": "nine", "ru": "девять", "hint": "NWE-veh"},
+    {"es": "diez", "en": "ten", "ru": "десять", "hint": "dee-EHS"},
+    {"es": "once", "en": "eleven", "ru": "одиннадцать", "hint": "OHN-seh"},
+    {"es": "doce", "en": "twelve", "ru": "двенадцать"},
+    {"es": "trece", "en": "thirteen", "ru": "тринадцать"},
+    {"es": "catorce", "en": "fourteen", "ru": "четырнадцать"},
+    {"es": "quince", "en": "fifteen", "ru": "пятнадцать", "hint": "KEEN-seh"},
+    {"es": "dieciséis", "en": "sixteen", "ru": "шестнадцать", "hint": "literally 'ten-and-six'"},
+    {"es": "diecisiete", "en": "seventeen", "ru": "семнадцать"},
+    {"es": "dieciocho", "en": "eighteen", "ru": "восемнадцать"},
+    {"es": "diecinueve", "en": "nineteen", "ru": "девятнадцать"},
+    {"es": "veinte", "en": "twenty", "ru": "двадцать", "hint": "VEYN-teh"}
+  ],
+  "grammar_notes": [
+    "16-19 are just 'ten-and-X' written as one word: dieciséis = diez y seis."
+  ],
+  "example_phrases": [
+    "Tengo veinte años. (I'm 20 years old.)",
+    "Dos cafés, por favor. (Two coffees, please.)"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "B1/18-future-perfect",
+  "level": "B1",
+  "order": 18,
+  "title": "Future perfect — 'will have done'",
+  "objectives": [
+    "Form 'habré + participle'",
+    "Use it for past-from-future-perspective and present-time speculation"
+  ],
+  "vocab": [
+    {"es": "habré / habrás / habrá / habremos / habréis / habrán", "en": "future of haber", "ru": "буду иметь (вспом.)"},
+    {"es": "habré terminado", "en": "I will have finished", "ru": "буду закончил / закончу к..."},
+    {"es": "habrá llegado", "en": "he/she will have arrived", "ru": "наверное приехал"}
+  ],
+  "grammar_notes": [
+    "Pattern: future of 'haber' + participle. 'Para mañana, habré terminado el proyecto.'",
+    "Also used for PAST speculation: '¿Habrá visto la noticia?' = 'I wonder if he saw the news / he must have seen the news.'"
+  ],
+  "example_phrases": [
+    "Para las cinco, habré terminado.",
+    "Habrá olvidado la cita. (He must have forgotten the appointment.)",
+    "Cuando llegues, ya habremos comido."
+  ]
+}

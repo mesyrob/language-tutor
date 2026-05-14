@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: language-tutor
+  namespace: language-tutor
+  labels:
+    app: language-tutor
+spec:
+  replicas: 1
+  # SQLite tolerates exactly one writer. Recreate ensures the old pod releases
+  # the volume before the new pod starts.
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: language-tutor
+  template:
+    metadata:
+      labels:
+        app: language-tutor
+    spec:
+      containers:
+        - name: bot
+          # Replace <REGISTRY>/<USER> with whatever you push to.
+          # Tag is bumped per release; ArgoCD picks up the change.
+          image: ghcr.io/REPLACE_ME/language-tutor:latest
+          imagePullPolicy: IfNotPresent
+          envFrom:
+            - secretRef:
+                name: language-tutor-secrets
+          env:
+            - name: DB_PATH
+              value: /data/tutor.db
+          volumeMounts:
+            - name: data
+              mountPath: /data
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: language-tutor-data

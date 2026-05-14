@@ -1,0 +1,30 @@
+{
+  "id": "B1/20-subjunctive-adverbial",
+  "level": "B1",
+  "order": 20,
+  "title": "Subjunctive in adverbial clauses",
+  "objectives": [
+    "Use the subjunctive after time, purpose, and condition connectors",
+    "Know which connectors switch between subjunctive and indicative"
+  ],
+  "vocab": [
+    {"es": "cuando", "en": "when (subjunctive for future / habitual indicative)", "ru": "когда"},
+    {"es": "hasta que", "en": "until", "ru": "до тех пор пока"},
+    {"es": "antes de que", "en": "before (always subjunctive)", "ru": "прежде чем"},
+    {"es": "después de que", "en": "after", "ru": "после того как"},
+    {"es": "en cuanto / tan pronto como", "en": "as soon as", "ru": "как только"},
+    {"es": "para que", "en": "so that (always subjunctive)", "ru": "чтобы"},
+    {"es": "sin que", "en": "without (always subjunctive)", "ru": "без того чтобы"},
+    {"es": "a menos que", "en": "unless (always subjunctive)", "ru": "если только не"}
+  ],
+  "grammar_notes": [
+    "ALWAYS subjunctive: antes de que, para que, sin que, a menos que, con tal de que.",
+    "Time connectors (cuando, hasta que, en cuanto): SUBJUNCTIVE if the action is in the future, INDICATIVE if it's a fact or habitual. 'Cuando llegues, llámame' (future) vs 'Cuando llego a casa, ceno' (habit).",
+    "Russian 'когда' doesn't switch mood, but 'чтобы' (purpose) does take a special form — closest parallel to Spanish 'para que + subjunctive'."
+  ],
+  "example_phrases": [
+    "Cuando vengas, te enseñaré la casa.",
+    "Estudio para que aprendas conmigo.",
+    "Voy a esperar hasta que llegue."
+  ]
+}

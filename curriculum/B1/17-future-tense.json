@@ -1,0 +1,29 @@
+{
+  "id": "B1/17-future-tense",
+  "level": "B1",
+  "order": 17,
+  "title": "Future tense — regular and irregular",
+  "objectives": [
+    "Form the simple future of all regular verbs",
+    "Memorize the irregular future stems"
+  ],
+  "vocab": [
+    {"es": "hablaré / hablarás / hablará / hablaremos / hablaréis / hablarán", "en": "future of hablar", "ru": "буду говорить (все формы)"},
+    {"es": "comeré / comerás / ...", "en": "future of comer", "ru": "буду есть"},
+    {"es": "viviré / vivirás / ...", "en": "future of vivir", "ru": "буду жить"},
+    {"es": "tendré (tener) / pondré (poner) / vendré (venir) / saldré (salir)", "en": "irregular future stems", "ru": "неправильные основы будущего"},
+    {"es": "haré (hacer) / diré (decir)", "en": "haré / diré", "ru": "сделаю / скажу"},
+    {"es": "podré (poder) / sabré (saber) / querré (querer)", "en": "more irregulars", "ru": "смогу / буду знать / захочу"},
+    {"es": "habrá", "en": "there will be (future of hay)", "ru": "будет / будут (существование)"}
+  ],
+  "grammar_notes": [
+    "Take the full infinitive + endings: -é, -ás, -á, -emos, -éis, -án. Same endings for -ar, -er, -ir.",
+    "Irregulars change the STEM, keep the endings. Memorize as pairs: tendr-, pondr-, vendr-, saldr-, podr-, sabr-, querr-, har-, dir-.",
+    "Spoken Spanish often prefers 'ir a + infinitivo' (the near future) over the simple future. The simple future is also used for PROBABILITY in the present: '¿Dónde está? Estará en casa.' = 'Where is he? He's probably home.'"
+  ],
+  "example_phrases": [
+    "Mañana hablaré con el jefe.",
+    "Tendremos una reunión la próxima semana.",
+    "¿Quién será a esta hora? (Who could that be at this time?)"
+  ]
+}

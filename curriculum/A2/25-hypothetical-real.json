@@ -1,0 +1,26 @@
+{
+  "id": "A2/25-hypothetical-real",
+  "level": "A2",
+  "order": 25,
+  "title": "Real conditionals — 'if X, then Y'",
+  "objectives": [
+    "Form real (first-type) conditionals",
+    "Combine 'si + presente' with present or future"
+  ],
+  "vocab": [
+    {"es": "si", "en": "if (no accent — different from 'sí' = yes)", "ru": "если"},
+    {"es": "entonces", "en": "then", "ru": "тогда"},
+    {"es": "tal vez / quizá / quizás", "en": "perhaps / maybe", "ru": "может быть"},
+    {"es": "seguramente", "en": "surely / probably", "ru": "наверняка"}
+  ],
+  "grammar_notes": [
+    "Real conditionals: 'si + presente, + presente / futuro / imperativo'. 'Si llueve, no voy.' 'Si tienes tiempo, ven.'",
+    "Note: do NOT use the subjunctive after 'si' for real conditionals — present tense.",
+    "Russian: 'если идёт дождь, я не пойду' — direct parallel."
+  ],
+  "example_phrases": [
+    "Si tengo tiempo, te llamo mañana.",
+    "Si quieres, podemos ir juntos.",
+    "Si llueve, nos quedamos en casa."
+  ]
+}

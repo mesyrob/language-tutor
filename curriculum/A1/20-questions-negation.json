@@ -1,0 +1,37 @@
+{
+  "id": "A1/20-questions-negation",
+  "level": "A1",
+  "order": 20,
+  "title": "Question words and negation",
+  "objectives": [
+    "Use the main question words confidently",
+    "Negate sentences and use double negation correctly"
+  ],
+  "vocab": [
+    {"es": "qué", "en": "what", "ru": "что"},
+    {"es": "quién / quiénes", "en": "who (sg./pl.)", "ru": "кто"},
+    {"es": "dónde", "en": "where", "ru": "где"},
+    {"es": "cuándo", "en": "when", "ru": "когда"},
+    {"es": "cómo", "en": "how", "ru": "как"},
+    {"es": "por qué", "en": "why", "ru": "почему"},
+    {"es": "porque", "en": "because (no accent!)", "ru": "потому что"},
+    {"es": "cuánto / cuánta / cuántos / cuántas", "en": "how much / how many", "ru": "сколько"},
+    {"es": "cuál / cuáles", "en": "which", "ru": "какой / который"},
+    {"es": "no", "en": "no / not", "ru": "нет / не"},
+    {"es": "nada", "en": "nothing", "ru": "ничего"},
+    {"es": "nadie", "en": "nobody", "ru": "никто"},
+    {"es": "nunca / jamás", "en": "never", "ru": "никогда"},
+    {"es": "tampoco", "en": "neither / also not", "ru": "тоже не"},
+    {"es": "ni ... ni", "en": "neither ... nor", "ru": "ни ... ни"}
+  ],
+  "grammar_notes": [
+    "Question words always carry a written accent (qué, dónde, cómo). 'porque' (because) has NO accent — different word.",
+    "Spanish uses DOUBLE negation: 'No tengo nada' = 'I don't have anything' (literally 'I don't have nothing'). Russian works the same way: 'У меня нет ничего'.",
+    "Word order in questions: verb often before subject — ¿Dónde vive tu hermana?"
+  ],
+  "example_phrases": [
+    "¿Qué quieres comer? — Nada, gracias.",
+    "¿Por qué estudias español? — Porque me gusta.",
+    "Nunca como carne."
+  ]
+}

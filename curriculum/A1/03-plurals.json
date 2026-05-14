@@ -1,0 +1,31 @@
+{
+  "id": "A1/03-plurals",
+  "level": "A1",
+  "order": 3,
+  "title": "Making plurals",
+  "objectives": [
+    "Form plurals of regular nouns and adjectives",
+    "Handle words ending in -z and stressed vowels"
+  ],
+  "vocab": [
+    {"es": "libro / libros", "en": "book / books", "ru": "книга / книги"},
+    {"es": "mesa / mesas", "en": "table / tables", "ru": "стол / столы"},
+    {"es": "ciudad / ciudades", "en": "city / cities", "ru": "город / города"},
+    {"es": "papel / papeles", "en": "paper / papers", "ru": "бумага / бумаги"},
+    {"es": "lápiz / lápices", "en": "pencil / pencils", "ru": "карандаш / карандаши", "hint": "z changes to c before -es"},
+    {"es": "café / cafés", "en": "coffee / coffees", "ru": "кофе / кофе"},
+    {"es": "los / las", "en": "the (m.pl. / f.pl.)", "ru": "артикли множ. числа"},
+    {"es": "unos / unas", "en": "some (m.pl. / f.pl.)", "ru": "несколько / некоторые"}
+  ],
+  "grammar_notes": [
+    "Word ends in a vowel → add -s: libro → libros.",
+    "Word ends in a consonant → add -es: ciudad → ciudades.",
+    "Word ends in -z → change to -ces: lápiz → lápices, vez → veces.",
+    "Articles and adjectives pluralize too: el libro rojo → los libros rojos."
+  ],
+  "example_phrases": [
+    "Tengo dos libros y tres lápices.",
+    "Las mesas son grandes.",
+    "Unos amigos vienen mañana."
+  ]
+}

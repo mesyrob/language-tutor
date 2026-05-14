@@ -1,0 +1,28 @@
+{
+  "id": "A2/13-indirect-object-pronouns",
+  "level": "A2",
+  "order": 13,
+  "title": "Indirect object pronouns: le, les",
+  "objectives": [
+    "Replace 'to-whom' / 'for-whom' objects with pronouns",
+    "Know when to add 'a + person' for clarity"
+  ],
+  "vocab": [
+    {"es": "me / te / le", "en": "to me / to you / to him-her-you-formal", "ru": "мне / тебе / ему-ей-Вам"},
+    {"es": "nos / os / les", "en": "to us / to you-all / to them-you-all-formal", "ru": "нам / вам / им"},
+    {"es": "regalar", "en": "to give as a gift", "ru": "дарить"},
+    {"es": "explicar", "en": "to explain", "ru": "объяснять"},
+    {"es": "enviar / mandar", "en": "to send", "ru": "отправлять / посылать"},
+    {"es": "preguntar", "en": "to ask (a question)", "ru": "спрашивать"}
+  ],
+  "grammar_notes": [
+    "Indirect = 'to whom / for whom' the action happens. 'Le doy un libro a Juan' = 'I give a book to Juan'.",
+    "'le' and 'les' are AMBIGUOUS (to him/her/you-formal). Spanish often adds 'a + person' for clarity: 'Le doy a María', 'Les hablo a mis amigos'.",
+    "Russian uses dative case (Маше, друзьям) — Spanish uses these pronouns + optional 'a + name'."
+  ],
+  "example_phrases": [
+    "Le compré un regalo a mi madre.",
+    "Te escribí un mensaje.",
+    "Les explico el ejercicio a los estudiantes."
+  ]
+}

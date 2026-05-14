@@ -1,0 +1,30 @@
+{
+  "id": "A1/17-restaurant",
+  "level": "A1",
+  "order": 17,
+  "title": "At the restaurant",
+  "objectives": [
+    "Order food and drink at a restaurant",
+    "Ask for and pay the bill"
+  ],
+  "vocab": [
+    {"es": "la carta / el menú", "en": "the menu", "ru": "меню"},
+    {"es": "una mesa para dos", "en": "a table for two", "ru": "столик на двоих"},
+    {"es": "¿qué desea? / ¿qué te pongo?", "en": "what would you like? (formal / casual)", "ru": "что желаете?"},
+    {"es": "de primero / de segundo / de postre", "en": "for starter / main / dessert", "ru": "на первое / второе / десерт"},
+    {"es": "para beber", "en": "to drink", "ru": "из напитков"},
+    {"es": "la cuenta, por favor", "en": "the bill, please", "ru": "счёт, пожалуйста"},
+    {"es": "está rico / está bueno", "en": "it's tasty / it's good", "ru": "вкусно"},
+    {"es": "una ración / una tapa", "en": "a portion / a tapa", "ru": "порция / закуска"},
+    {"es": "la propina", "en": "the tip", "ru": "чаевые"}
+  ],
+  "grammar_notes": [
+    "'¿Qué desea?' is formal restaurant Spanish. With friends: '¿Qué quieres?' or '¿Qué te pongo?'.",
+    "Tipping in Spain is light (1-2€), in Latin America often 10%."
+  ],
+  "example_phrases": [
+    "Una mesa para dos, por favor.",
+    "De primero, una ensalada. De segundo, pollo con arroz.",
+    "La cuenta, por favor. — Aquí tiene."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "B1/04-subjunctive-emotion",
+  "level": "B1",
+  "order": 4,
+  "title": "Subjunctive with emotional verbs",
+  "objectives": [
+    "Use the subjunctive after expressions of emotion",
+    "Build sentences with 'me alegro de que', 'siento que', etc."
+  ],
+  "vocab": [
+    {"es": "me alegro de que ...", "en": "I'm glad that ...", "ru": "я рад(а), что..."},
+    {"es": "siento que ...", "en": "I'm sorry that ... / I feel that ...", "ru": "мне жаль, что..."},
+    {"es": "me sorprende que ...", "en": "it surprises me that ...", "ru": "меня удивляет, что..."},
+    {"es": "me molesta que ...", "en": "it bothers me that ...", "ru": "меня раздражает, что..."},
+    {"es": "tengo miedo de que ...", "en": "I'm afraid that ...", "ru": "я боюсь, что..."},
+    {"es": "es una pena que ...", "en": "it's a pity that ...", "ru": "жаль, что..."},
+    {"es": "ojalá", "en": "hopefully / if only", "ru": "хоть бы / лишь бы"}
+  ],
+  "grammar_notes": [
+    "Any emotional reaction + 'que' triggers the subjunctive in the next clause.",
+    "'Ojalá' (from Arabic 'in sha'allah') always takes the subjunctive: 'Ojalá venga.' (Hopefully he comes.)",
+    "Note: same subject → use infinitive with 'de'. 'Me alegro de venir' (I'm glad TO come) vs 'Me alegro de que vengas' (I'm glad YOU come)."
+  ],
+  "example_phrases": [
+    "Me alegro de que estés aquí.",
+    "Siento que no puedas venir.",
+    "Ojalá haga buen tiempo mañana."
+  ]
+}

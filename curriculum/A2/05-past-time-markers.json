@@ -1,0 +1,32 @@
+{
+  "id": "A2/05-past-time-markers",
+  "level": "A2",
+  "order": 5,
+  "title": "Time markers for the past",
+  "objectives": [
+    "Anchor past events in time using common markers",
+    "Use 'hace + time' for 'ago'"
+  ],
+  "vocab": [
+    {"es": "ayer", "en": "yesterday", "ru": "вчера"},
+    {"es": "anoche", "en": "last night", "ru": "вчера вечером / ночью"},
+    {"es": "anteayer", "en": "the day before yesterday", "ru": "позавчера"},
+    {"es": "la semana pasada", "en": "last week", "ru": "на прошлой неделе"},
+    {"es": "el mes pasado", "en": "last month", "ru": "в прошлом месяце"},
+    {"es": "el año pasado", "en": "last year", "ru": "в прошлом году"},
+    {"es": "hace dos días", "en": "two days ago", "ru": "два дня назад"},
+    {"es": "hace un año", "en": "a year ago", "ru": "год назад"},
+    {"es": "el otro día", "en": "the other day", "ru": "на днях"},
+    {"es": "ya", "en": "already", "ru": "уже"},
+    {"es": "todavía no", "en": "not yet", "ru": "ещё нет"}
+  ],
+  "grammar_notes": [
+    "'hace + tiempo' = 'X time ago': hace dos años = two years ago.",
+    "These markers usually trigger the preterite, signaling a finished past moment."
+  ],
+  "example_phrases": [
+    "Ayer trabajé mucho.",
+    "Vivimos en Madrid hace tres años.",
+    "El mes pasado viajé a Italia."
+  ]
+}
