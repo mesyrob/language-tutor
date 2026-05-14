@@ -9,5 +9,4 @@ spec:
   resources:
     requests:
       storage: 1Gi
-  # Omitted storageClassName → falls back to the cluster default
-  # (your homelab uses local-path-provisioner; that's fine).
+  storageClassName: local-path
