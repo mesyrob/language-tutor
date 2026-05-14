@@ -1,4 +1,7 @@
-FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
+FROM python:3.12-slim-bookworm
+
+# Install uv (small, pure Python wheel via pip).
+RUN pip install --no-cache-dir uv==0.5.20
 
 WORKDIR /app
 

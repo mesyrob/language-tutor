@@ -21,9 +21,8 @@ spec:
     spec:
       containers:
         - name: bot
-          # Replace <REGISTRY>/<USER> with whatever you push to.
-          # Tag is bumped per release; ArgoCD picks up the change.
-          image: ghcr.io/REPLACE_ME/language-tutor:latest
+          # Bump the tag per release; ArgoCD picks up the change.
+          image: ghcr.io/mesyrob/language-tutor:v0.1.0
           imagePullPolicy: IfNotPresent
           envFrom:
             - secretRef:
