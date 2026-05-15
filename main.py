@@ -1301,6 +1301,10 @@ def focus_menu_markup(current: str) -> InlineKeyboardMarkup:
             InlineKeyboardButton(label("vocab"), callback_data="focus:vocab"),
         ],
         [InlineKeyboardButton(label("reading"), callback_data="focus:reading")],
+        [
+            InlineKeyboardButton("🎧 Listening (coming soon)", callback_data="focus:disabled"),
+            InlineKeyboardButton("🎤 Speaking (coming soon)", callback_data="focus:disabled"),
+        ],
     ]
     return InlineKeyboardMarkup(rows)
 

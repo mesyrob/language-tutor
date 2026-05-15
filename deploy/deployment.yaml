@@ -22,7 +22,7 @@ spec:
       containers:
         - name: bot
           # Bump the tag per release; ArgoCD picks up the change.
-          image: ghcr.io/mesyrob/language-tutor:v0.2.1
+          image: ghcr.io/mesyrob/language-tutor:v0.2.2
           imagePullPolicy: IfNotPresent
           envFrom:
             - secretRef:
