@@ -270,10 +270,11 @@ async def test_parse_failure_returns_fallback_and_keeps_state(tmp_db, onboarded_
     mock_claude.messages.parse.side_effect = Exception("malformed JSON")
 
     before = main.get_learner_state(onboarded_user)
-    reply = await main.tutor_turn(onboarded_user, "test")
+    reply, image = await main.tutor_turn(onboarded_user, "test")
     after = main.get_learner_state(onboarded_user)
 
     assert "hiccup" in reply.lower() or "brain" in reply.lower()
+    assert image is None
     assert before == after
 
 
@@ -284,8 +285,9 @@ async def test_parse_succeeds_on_second_attempt(tmp_db, onboarded_user, mock_cla
         make_tutor_response(reply="ok this time"),
     ]
 
-    reply = await main.tutor_turn(onboarded_user, "hello")
+    reply, image = await main.tutor_turn(onboarded_user, "hello")
     assert reply == "ok this time"
+    assert image is None
 
 
 @pytest.mark.asyncio

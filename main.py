@@ -9,10 +9,11 @@ from typing import Literal, Optional
 from anthropic import Anthropic
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
-from telegram import Update
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest
 from telegram.ext import (
     Application,
+    CallbackQueryHandler,
     CommandHandler,
     ContextTypes,
     MessageHandler,
@@ -42,6 +43,7 @@ PASS_THRESHOLD = 0.7  # 7/10 to pass a level test
 TEST_ITEM_COUNT = 10
 
 TestState = Literal["none", "pending", "active", "review_after_fail"]
+FocusMode = Literal["auto", "grammar", "vocab", "reading"]
 
 # Leitner SRS — box level -> days until next review
 LEITNER_INTERVALS_DAYS = {1: 1, 2: 2, 3: 4, 4: 8, 5: 16}
@@ -100,7 +102,7 @@ If there's no next lesson in context, do NOT emit `advance_now`. When she comple
 - Stay short: 3 to 6 lines
 - Show Spanish, an English explanation, a Russian gloss for new vocab, pronunciation hint when not obvious
 - End with one small question so she can use what was just taught
-- Be warm — A0 learners need quick wins
+- Be warm AND a little playful. Drop in the occasional light joke, a wink at how chaotic Spanish grammar can be, a small celebration when she nails something. Tease gently when she makes a typical mistake (e.g. forgetting gender) — never mean. Use the occasional emoji where it lands naturally (🌶️ 🪄 ☕ etc.), but don't sprinkle them like confetti.
 - Always complete your sentences and thoughts. Never trail off mid-sentence (no "Sounds like..." with nothing after). End every reply with a complete clause and a clear question mark.
 
 ## Formatting
@@ -223,6 +225,10 @@ class TutorTurn(BaseModel):
         False,
         description="True ONLY during test_state=review_after_fail when the learner has demonstrated recovery OR clearly asks to retry the test.",
     )
+    send_image: bool = Field(
+        False,
+        description="Set true when the current lesson has a grammar reference card AND introducing it visually would help right now (e.g., when teaching its grammar topic for the first time, or when she asks for a visual). The system will send the lesson's image alongside your reply. Don't spam — once per lesson is plenty.",
+    )
 
 
 def load_curriculum() -> dict[str, dict]:
@@ -282,6 +288,7 @@ def init_db() -> None:
                 test_state TEXT NOT NULL DEFAULT 'none',
                 test_items TEXT NOT NULL DEFAULT '[]',
                 test_responses TEXT NOT NULL DEFAULT '[]',
+                focus_mode TEXT NOT NULL DEFAULT 'auto',
                 last_updated_at TEXT NOT NULL DEFAULT (datetime('now'))
             );
 
@@ -336,6 +343,8 @@ def init_db() -> None:
             conn.execute("ALTER TABLE learner_state ADD COLUMN test_items TEXT NOT NULL DEFAULT '[]'")
         if "test_responses" not in cols:
             conn.execute("ALTER TABLE learner_state ADD COLUMN test_responses TEXT NOT NULL DEFAULT '[]'")
+        if "focus_mode" not in cols:
+            conn.execute("ALTER TABLE learner_state ADD COLUMN focus_mode TEXT NOT NULL DEFAULT 'auto'")
         user_cols = {r[1] for r in conn.execute("PRAGMA table_info(users)").fetchall()}
         if "streak_days" not in user_cols:
             conn.execute("ALTER TABLE users ADD COLUMN streak_days INTEGER NOT NULL DEFAULT 0")
@@ -405,6 +414,22 @@ def get_learner_state(tg_id: int) -> tuple[Optional[str], bool, list[str], dict]
             bool(row["at_junction"]),
             json.loads(row["completed_lessons"]),
             json.loads(row["learner_model"]),
+        )
+
+
+def get_focus_mode(tg_id: int) -> str:
+    with db() as conn:
+        row = conn.execute(
+            "SELECT focus_mode FROM learner_state WHERE user_id = ?", (tg_id,)
+        ).fetchone()
+        return row["focus_mode"] if row else "auto"
+
+
+def set_focus_mode(tg_id: int, mode: str) -> None:
+    with db() as conn:
+        conn.execute(
+            "UPDATE learner_state SET focus_mode = ?, last_updated_at = datetime('now') WHERE user_id = ?",
+            (mode, tg_id),
         )
 
 
@@ -745,6 +770,30 @@ def merge_learner_model(tg_id: int, update: LearnerModelUpdate) -> None:
         )
 
 
+FOCUS_MODE_INSTRUCTIONS = {
+    "auto": "",
+    "grammar": (
+        "## Focus mode: GRAMMAR\n\n"
+        "She has chosen to focus on grammar right now. Center this turn on the current lesson's grammar rules. "
+        "Drill conjugations, agreement, sentence patterns. Less vocab, more rule-and-practice. "
+        "If the lesson has a card image and she hasn't seen it yet this lesson, send it (set send_image=true)."
+    ),
+    "vocab": (
+        "## Focus mode: VOCABULARY\n\n"
+        "She has chosen to focus on vocabulary right now. Flashcard-style: present an item, ask her to recall or use it, "
+        "grade with `evaluation` and `srs_item`. Prioritize due SRS items if present. "
+        "Less grammar talk, more word/phrase recall."
+    ),
+    "reading": (
+        "## Focus mode: READING\n\n"
+        "She has chosen to focus on reading right now. Write a short (2–4 sentences) original Spanish paragraph using "
+        "vocab from her current lesson and recent material. Stay at her CEFR level. Then ask her to translate it "
+        "into English (or Russian, her choice). Grade the translation in your next turn with `evaluation`. "
+        "Pick a fun, light topic — café, weather, a dog, anything she'd find amusing."
+    ),
+}
+
+
 def build_tutor_system_prompt(
     user,
     current_lesson_id: Optional[str],
@@ -755,6 +804,7 @@ def build_tutor_system_prompt(
     test_items: Optional[list[dict]] = None,
     test_responses: Optional[list[dict]] = None,
     due_srs_items: Optional[list[dict]] = None,
+    focus_mode: str = "auto",
 ) -> str:
     test_items = test_items or []
     test_responses = test_responses or []
@@ -773,6 +823,9 @@ def build_tutor_system_prompt(
         "## Learner profile (stable)\n" + json.dumps(profile, ensure_ascii=False, indent=2),
         "## Learner model (observed)\n" + json.dumps(learner_model, ensure_ascii=False, indent=2),
     ]
+
+    if focus_mode != "auto" and FOCUS_MODE_INSTRUCTIONS.get(focus_mode):
+        sections.append(FOCUS_MODE_INSTRUCTIONS[focus_mode])
 
     # Junction state — tells the bot what mode it's in.
     current_lesson = CURRICULUM.get(current_lesson_id) if current_lesson_id else None
@@ -951,14 +1004,15 @@ def lesson_summary(lesson: dict) -> str:
     return "\n".join(parts)
 
 
-async def tutor_turn(tg_id: int, user_text: str, save_user_turn: bool = True) -> str:
+async def tutor_turn(tg_id: int, user_text: str, save_user_turn: bool = True) -> tuple[str, Optional[Path]]:
     user = get_user(tg_id)
     current_lesson_id, at_junction, completed_lessons, learner_model = get_learner_state(tg_id)
     test_state, test_items, test_responses = get_test_state(tg_id)
     due_srs = get_due_srs_items(tg_id, limit=DUE_ITEMS_PER_TURN)
+    focus_mode = get_focus_mode(tg_id)
     system_prompt = build_tutor_system_prompt(
         user, current_lesson_id, at_junction, completed_lessons, learner_model,
-        test_state, test_items, test_responses, due_srs,
+        test_state, test_items, test_responses, due_srs, focus_mode,
     )
 
     history = get_recent_history(tg_id)
@@ -987,7 +1041,7 @@ async def tutor_turn(tg_id: int, user_text: str, save_user_turn: bool = True) ->
             save_turn(tg_id, "user", user_text)
         save_turn(tg_id, "assistant", fallback)
         trim_history(tg_id)
-        return fallback
+        return fallback, None
 
     merge_learner_model(tg_id, turn.learner_model_update)
     if save_user_turn:
@@ -1088,7 +1142,17 @@ async def tutor_turn(tg_id: int, user_text: str, save_user_turn: bool = True) ->
                 set_at_junction(tg_id, False)
                 logger.info("user %s: starting lesson %s", tg_id, current_lesson_id)
 
-    return turn.reply
+    # If the bot asked for the lesson's image, resolve its path.
+    image_path: Optional[Path] = None
+    if turn.send_image and current_lesson_id:
+        lesson = CURRICULUM.get(current_lesson_id, {})
+        image_slug = lesson.get("image")
+        if image_slug:
+            candidate = CURRICULUM_DIR / "images" / f"{image_slug}.png"
+            if candidate.exists():
+                image_path = candidate
+
+    return turn.reply, image_path
 
 
 async def start_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -1116,6 +1180,7 @@ async def profile_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     current_lesson_id, at_junction, completed_lessons, learner_model = get_learner_state(user.id)
     test_state, test_items, test_responses = get_test_state(user.id)
     srs_stats = get_srs_stats(user.id)
+    focus_mode = get_focus_mode(user.id)
     profile = {
         "name": row["name"],
         "goal": row["goal"],
@@ -1128,6 +1193,7 @@ async def profile_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         "completed_lessons": completed_lessons,
         "test_state": test_state,
         "test_progress": f"{len(test_responses)}/{len(test_items)}" if test_items else None,
+        "focus_mode": focus_mode,
         "srs": srs_stats,
         "learner_model": learner_model,
     }
@@ -1163,6 +1229,7 @@ async def lesson_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
 HELP_TEXT = (
     "Hi! Here's what I can do:\n\n"
     "/start — start fresh or come back\n"
+    "/menu — pick what to focus on (grammar / vocab / reading)\n"
     "/lesson — show the current lesson card\n"
     "/progress — your stats (level, streak, lessons done, SRS queue)\n"
     "/review — drill items due in your spaced-repetition queue\n"
@@ -1214,6 +1281,76 @@ async def progress_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     await update.message.reply_text("\n".join(lines))
 
 
+FOCUS_LABEL = {
+    "auto": "✨ Auto",
+    "grammar": "📐 Grammar",
+    "vocab": "📚 Vocabulary",
+    "reading": "📖 Reading",
+}
+
+
+def focus_menu_markup(current: str) -> InlineKeyboardMarkup:
+    """Build the inline keyboard. Current mode gets a ✓ next to it."""
+    def label(mode: str) -> str:
+        return ("✓ " if mode == current else "") + FOCUS_LABEL[mode]
+
+    rows = [
+        [InlineKeyboardButton(label("auto"), callback_data="focus:auto")],
+        [
+            InlineKeyboardButton(label("grammar"), callback_data="focus:grammar"),
+            InlineKeyboardButton(label("vocab"), callback_data="focus:vocab"),
+        ],
+        [InlineKeyboardButton(label("reading"), callback_data="focus:reading")],
+        [
+            InlineKeyboardButton("🎧 Listening (coming soon)", callback_data="focus:disabled"),
+            InlineKeyboardButton("🎤 Speaking (coming soon)", callback_data="focus:disabled"),
+        ],
+    ]
+    return InlineKeyboardMarkup(rows)
+
+
+async def menu_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    user = update.effective_user
+    row = get_user(user.id)
+    if not row or not row["onboarded"]:
+        await update.message.reply_text("Send /start first.")
+        return
+    current = get_focus_mode(user.id)
+    await update.message.reply_text(
+        "What do you want to focus on today?\n\nTap a button — your choice sticks until you change it.",
+        reply_markup=focus_menu_markup(current),
+    )
+
+
+async def focus_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    query = update.callback_query
+    await query.answer()
+    user = update.effective_user
+    row = get_user(user.id)
+    if not row or not row["onboarded"]:
+        await query.edit_message_text("Send /start first.")
+        return
+
+    data = query.data or ""
+    if not data.startswith("focus:"):
+        return
+    choice = data.split(":", 1)[1]
+
+    if choice == "disabled":
+        await query.answer("Coming soon — audio support needs an extra service. We'll add it later!", show_alert=True)
+        return
+
+    if choice not in FOCUS_LABEL:
+        return
+
+    set_focus_mode(user.id, choice)
+    logger.info("user %s set focus_mode=%s", user.id, choice)
+    await query.edit_message_text(
+        f"Focus set to {FOCUS_LABEL[choice]}.\n\nSend any message and I'll dive in.",
+        reply_markup=focus_menu_markup(choice),
+    )
+
+
 async def review_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user = update.effective_user
     row = get_user(user.id)
@@ -1225,12 +1362,12 @@ async def review_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
         await update.message.reply_text("Nothing due for review right now! Your SRS queue is clear ✨")
         return
     await update.message.chat.send_action("typing")
-    reply = await tutor_turn(
+    reply, image_path = await tutor_turn(
         user.id,
         f"[/review session: there are {len(due)} items due now. Start a focused review by drilling these items one at a time. After the session, the learner can return to her current lesson.]",
         save_user_turn=False,
     )
-    await send_tutor_reply(update, reply)
+    await send_tutor_reply(update, reply, image_path)
 
 
 async def chat(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -1256,21 +1393,30 @@ async def chat(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         save_onboarding(user.id, parsed.parsed_output)
         logger.info("onboarded user %s", user.id)
 
-        first_reply = await tutor_turn(
+        first_reply, image_path = await tutor_turn(
             user.id,
             "[system: this is the learner's first interaction. She just finished onboarding and is at_junction. Welcome her warmly by name in one line, acknowledge her goal in one line, preview Lesson 1: Greetings in one line, and ask whether she wants to start now or has any questions first. Do NOT teach lesson content yet.]",
             save_user_turn=False,
         )
-        await send_tutor_reply(update, first_reply)
+        await send_tutor_reply(update, first_reply, image_path)
         return
 
     await update.message.chat.send_action("typing")
-    reply = await tutor_turn(user.id, text)
-    await send_tutor_reply(update, reply)
+    reply, image_path = await tutor_turn(user.id, text)
+    await send_tutor_reply(update, reply, image_path)
 
 
-async def send_tutor_reply(update: Update, reply: str) -> None:
-    """Send a tutor reply with HTML parsing; fall back to plain text on parse error."""
+async def send_tutor_reply(update: Update, reply: str, image_path: Optional[Path] = None) -> None:
+    """Send a tutor reply (optionally with a photo) using HTML parsing; fall back to plain on parse error."""
+    if image_path and image_path.exists():
+        try:
+            # Telegram caption limit is 1024 chars. Longer reply → send photo first, then text.
+            if len(reply) <= 1024:
+                await update.message.reply_photo(photo=image_path.open("rb"), caption=reply, parse_mode="HTML")
+                return
+            await update.message.reply_photo(photo=image_path.open("rb"))
+        except BadRequest as e:
+            logger.warning("photo send failed (%s); falling back to text only", e)
     try:
         await update.message.reply_text(reply, parse_mode="HTML")
     except BadRequest as e:
@@ -1288,6 +1434,8 @@ def main() -> None:
     app.add_handler(CommandHandler("lesson", lesson_cmd))
     app.add_handler(CommandHandler("progress", progress_cmd))
     app.add_handler(CommandHandler("review", review_cmd))
+    app.add_handler(CommandHandler("menu", menu_cmd))
+    app.add_handler(CallbackQueryHandler(focus_callback, pattern=r"^focus:"))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, chat))
     logger.info(
         "bot starting (polling) — model=%s db=%s curriculum=%d lessons",

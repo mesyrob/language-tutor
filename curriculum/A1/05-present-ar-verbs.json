@@ -8,14 +8,46 @@
     "Build simple sentences about routine actions"
   ],
   "vocab": [
-    {"es": "hablar", "en": "to speak", "ru": "говорить"},
-    {"es": "trabajar", "en": "to work", "ru": "работать"},
-    {"es": "estudiar", "en": "to study", "ru": "учиться / изучать"},
-    {"es": "escuchar", "en": "to listen", "ru": "слушать"},
-    {"es": "mirar", "en": "to look / to watch", "ru": "смотреть"},
-    {"es": "comprar", "en": "to buy", "ru": "покупать"},
-    {"es": "cocinar", "en": "to cook", "ru": "готовить"},
-    {"es": "viajar", "en": "to travel", "ru": "путешествовать"}
+    {
+      "es": "hablar",
+      "en": "to speak",
+      "ru": "говорить"
+    },
+    {
+      "es": "trabajar",
+      "en": "to work",
+      "ru": "работать"
+    },
+    {
+      "es": "estudiar",
+      "en": "to study",
+      "ru": "учиться / изучать"
+    },
+    {
+      "es": "escuchar",
+      "en": "to listen",
+      "ru": "слушать"
+    },
+    {
+      "es": "mirar",
+      "en": "to look / to watch",
+      "ru": "смотреть"
+    },
+    {
+      "es": "comprar",
+      "en": "to buy",
+      "ru": "покупать"
+    },
+    {
+      "es": "cocinar",
+      "en": "to cook",
+      "ru": "готовить"
+    },
+    {
+      "es": "viajar",
+      "en": "to travel",
+      "ru": "путешествовать"
+    }
   ],
   "grammar_notes": [
     "Drop -ar, add the ending. For hablar: hablo, hablas, habla, hablamos, habláis, hablan.",
@@ -26,5 +58,6 @@
     "Hablo español un poco. (I speak a bit of Spanish.)",
     "¿Trabajas o estudias? (Do you work or study?)",
     "Cocinamos juntos los domingos. (We cook together on Sundays.)"
-  ]
+  ],
+  "image": "regular-verbs"
 }

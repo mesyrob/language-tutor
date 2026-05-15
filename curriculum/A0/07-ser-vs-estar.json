@@ -9,17 +9,61 @@
     "Conjugate 'estar' in the present tense"
   ],
   "vocab": [
-    {"es": "estoy", "en": "I am (state/location)", "ru": "я (в данный момент)"},
-    {"es": "estás", "en": "you are (state/location)", "ru": "ты (в данный момент)"},
-    {"es": "está", "en": "he/she is (state/location)", "ru": "он/она (в данный момент)"},
-    {"es": "estamos", "en": "we are (state/location)", "ru": "мы (в данный момент)"},
-    {"es": "están", "en": "they are (state/location)", "ru": "они (в данный момент)"},
-    {"es": "bien", "en": "well / fine", "ru": "хорошо"},
-    {"es": "mal", "en": "bad / unwell", "ru": "плохо"},
-    {"es": "cansado / cansada", "en": "tired (m. / f.)", "ru": "усталый / усталая"},
-    {"es": "en casa", "en": "at home", "ru": "дома"},
-    {"es": "aquí", "en": "here", "ru": "здесь"},
-    {"es": "¿cómo estás?", "en": "how are you? (state right now)", "ru": "как ты (себя чувствуешь)?"}
+    {
+      "es": "estoy",
+      "en": "I am (state/location)",
+      "ru": "я (в данный момент)"
+    },
+    {
+      "es": "estás",
+      "en": "you are (state/location)",
+      "ru": "ты (в данный момент)"
+    },
+    {
+      "es": "está",
+      "en": "he/she is (state/location)",
+      "ru": "он/она (в данный момент)"
+    },
+    {
+      "es": "estamos",
+      "en": "we are (state/location)",
+      "ru": "мы (в данный момент)"
+    },
+    {
+      "es": "están",
+      "en": "they are (state/location)",
+      "ru": "они (в данный момент)"
+    },
+    {
+      "es": "bien",
+      "en": "well / fine",
+      "ru": "хорошо"
+    },
+    {
+      "es": "mal",
+      "en": "bad / unwell",
+      "ru": "плохо"
+    },
+    {
+      "es": "cansado / cansada",
+      "en": "tired (m. / f.)",
+      "ru": "усталый / усталая"
+    },
+    {
+      "es": "en casa",
+      "en": "at home",
+      "ru": "дома"
+    },
+    {
+      "es": "aquí",
+      "en": "here",
+      "ru": "здесь"
+    },
+    {
+      "es": "¿cómo estás?",
+      "en": "how are you? (state right now)",
+      "ru": "как ты (себя чувствуешь)?"
+    }
   ],
   "grammar_notes": [
     "SER = identity, profession, nationality, time. Permanent or defining traits: 'Soy rusa.' 'Es médico.'",
@@ -31,5 +75,6 @@
     "Soy profesora pero hoy estoy cansada. (I'm a teacher [identity] but today I'm tired [state].)",
     "— ¿Cómo estás? — Estoy bien, gracias.",
     "Mi madre está en casa. (My mum is at home.)"
-  ]
+  ],
+  "image": "ser-vs-estar"
 }

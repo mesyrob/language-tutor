@@ -8,14 +8,46 @@
     "Notice where -er and -ir endings differ (only nosotros / vosotros)"
   ],
   "vocab": [
-    {"es": "comer", "en": "to eat", "ru": "есть / кушать"},
-    {"es": "beber", "en": "to drink", "ru": "пить"},
-    {"es": "leer", "en": "to read", "ru": "читать"},
-    {"es": "aprender", "en": "to learn", "ru": "учиться (выучивать)"},
-    {"es": "vivir", "en": "to live", "ru": "жить"},
-    {"es": "escribir", "en": "to write", "ru": "писать"},
-    {"es": "abrir", "en": "to open", "ru": "открывать"},
-    {"es": "recibir", "en": "to receive", "ru": "получать"}
+    {
+      "es": "comer",
+      "en": "to eat",
+      "ru": "есть / кушать"
+    },
+    {
+      "es": "beber",
+      "en": "to drink",
+      "ru": "пить"
+    },
+    {
+      "es": "leer",
+      "en": "to read",
+      "ru": "читать"
+    },
+    {
+      "es": "aprender",
+      "en": "to learn",
+      "ru": "учиться (выучивать)"
+    },
+    {
+      "es": "vivir",
+      "en": "to live",
+      "ru": "жить"
+    },
+    {
+      "es": "escribir",
+      "en": "to write",
+      "ru": "писать"
+    },
+    {
+      "es": "abrir",
+      "en": "to open",
+      "ru": "открывать"
+    },
+    {
+      "es": "recibir",
+      "en": "to receive",
+      "ru": "получать"
+    }
   ],
   "grammar_notes": [
     "-er pattern (comer): como, comes, come, comemos, coméis, comen.",
@@ -27,5 +59,6 @@
     "Como pasta los lunes. (I eat pasta on Mondays.)",
     "Vivimos en Madrid. (We live in Madrid.)",
     "¿Lees mucho? (Do you read a lot?)"
-  ]
+  ],
+  "image": "regular-verbs"
 }

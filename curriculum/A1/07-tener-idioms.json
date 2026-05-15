@@ -8,17 +8,61 @@
     "Use tener idioms where English uses 'to be' (hungry, cold, etc.)"
   ],
   "vocab": [
-    {"es": "tener", "en": "to have", "ru": "иметь / у меня есть"},
-    {"es": "tengo / tienes / tiene", "en": "I have / you have / he-she has", "ru": "у меня / у тебя / у него есть"},
-    {"es": "tenemos / tenéis / tienen", "en": "we have / you-all have / they have", "ru": "у нас / у вас / у них есть"},
-    {"es": "tener ... años", "en": "to be ... years old", "ru": "быть ... лет"},
-    {"es": "tener hambre", "en": "to be hungry (lit. have hunger)", "ru": "быть голодным"},
-    {"es": "tener sed", "en": "to be thirsty", "ru": "хотеть пить"},
-    {"es": "tener frío / calor", "en": "to be cold / hot", "ru": "холодно / жарко мне"},
-    {"es": "tener sueño", "en": "to be sleepy", "ru": "хотеть спать"},
-    {"es": "tener miedo", "en": "to be afraid", "ru": "бояться"},
-    {"es": "tener prisa", "en": "to be in a hurry", "ru": "спешить"},
-    {"es": "tener razón", "en": "to be right", "ru": "быть правым"}
+    {
+      "es": "tener",
+      "en": "to have",
+      "ru": "иметь / у меня есть"
+    },
+    {
+      "es": "tengo / tienes / tiene",
+      "en": "I have / you have / he-she has",
+      "ru": "у меня / у тебя / у него есть"
+    },
+    {
+      "es": "tenemos / tenéis / tienen",
+      "en": "we have / you-all have / they have",
+      "ru": "у нас / у вас / у них есть"
+    },
+    {
+      "es": "tener ... años",
+      "en": "to be ... years old",
+      "ru": "быть ... лет"
+    },
+    {
+      "es": "tener hambre",
+      "en": "to be hungry (lit. have hunger)",
+      "ru": "быть голодным"
+    },
+    {
+      "es": "tener sed",
+      "en": "to be thirsty",
+      "ru": "хотеть пить"
+    },
+    {
+      "es": "tener frío / calor",
+      "en": "to be cold / hot",
+      "ru": "холодно / жарко мне"
+    },
+    {
+      "es": "tener sueño",
+      "en": "to be sleepy",
+      "ru": "хотеть спать"
+    },
+    {
+      "es": "tener miedo",
+      "en": "to be afraid",
+      "ru": "бояться"
+    },
+    {
+      "es": "tener prisa",
+      "en": "to be in a hurry",
+      "ru": "спешить"
+    },
+    {
+      "es": "tener razón",
+      "en": "to be right",
+      "ru": "быть правым"
+    }
   ],
   "grammar_notes": [
     "'tener' is irregular only in yo (tengo) and the stem change e→ie (tienes, tiene, tienen).",
@@ -28,5 +72,6 @@
     "Tengo veintisiete años. (I'm 27.)",
     "¿Tienes hambre? — Sí, tengo mucha hambre.",
     "Tenemos prisa, ¡vamos!"
-  ]
+  ],
+  "image": "tener-conjugation"
 }

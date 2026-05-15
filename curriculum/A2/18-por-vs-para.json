@@ -8,8 +8,16 @@
     "Memorize the core uses of each"
   ],
   "vocab": [
-    {"es": "por", "en": "because of, through, in exchange for, by", "ru": "из-за / через / за (обмен) / посредством"},
-    {"es": "para", "en": "for (purpose, recipient, deadline, destination)", "ru": "для / чтобы / к (сроку) / в (направлении)"}
+    {
+      "es": "por",
+      "en": "because of, through, in exchange for, by",
+      "ru": "из-за / через / за (обмен) / посредством"
+    },
+    {
+      "es": "para",
+      "en": "for (purpose, recipient, deadline, destination)",
+      "ru": "для / чтобы / к (сроку) / в (направлении)"
+    }
   ],
   "grammar_notes": [
     "PARA = forward-looking: purpose, recipient, destination, deadline. 'Este regalo es para ti.' 'Estudio para aprobar.' 'Salgo para Madrid.'",
@@ -22,5 +30,6 @@
     "Gracias por tu ayuda. (cause)",
     "Salimos para Madrid mañana. (destination)",
     "Compré el libro por diez euros. (exchange)"
-  ]
+  ],
+  "image": "por-vs-para"
 }

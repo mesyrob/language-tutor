@@ -8,12 +8,36 @@
     "Map the distinction to Russian perfective vs imperfective aspect"
   ],
   "vocab": [
-    {"es": "ayer / la semana pasada", "en": "triggers preterite (completed)", "ru": "указатели на завершённое (вчера, неделю назад)"},
-    {"es": "siempre / a menudo / todos los días", "en": "triggers imperfect (habit)", "ru": "указатели на привычку (всегда, часто, каждый день)"},
-    {"es": "mientras", "en": "while", "ru": "пока / в то время как"},
-    {"es": "de repente", "en": "suddenly", "ru": "вдруг"},
-    {"es": "una vez", "en": "once / one time", "ru": "однажды"},
-    {"es": "muchas veces", "en": "many times", "ru": "много раз"}
+    {
+      "es": "ayer / la semana pasada",
+      "en": "triggers preterite (completed)",
+      "ru": "указатели на завершённое (вчера, неделю назад)"
+    },
+    {
+      "es": "siempre / a menudo / todos los días",
+      "en": "triggers imperfect (habit)",
+      "ru": "указатели на привычку (всегда, часто, каждый день)"
+    },
+    {
+      "es": "mientras",
+      "en": "while",
+      "ru": "пока / в то время как"
+    },
+    {
+      "es": "de repente",
+      "en": "suddenly",
+      "ru": "вдруг"
+    },
+    {
+      "es": "una vez",
+      "en": "once / one time",
+      "ru": "однажды"
+    },
+    {
+      "es": "muchas veces",
+      "en": "many times",
+      "ru": "много раз"
+    }
   ],
   "grammar_notes": [
     "PRETERITE = a thing happened ONCE, completed, with a beginning and end. 'Ayer comí pizza.'",
@@ -25,5 +49,6 @@
     "De niño, jugaba en el parque. (As a child, I used to play in the park.)",
     "Ayer jugué al fútbol. (Yesterday I played football — one game.)",
     "Estudiaba cuando llegó mi amigo."
-  ]
+  ],
+  "image": "preterite-vs-imperfect"
 }
